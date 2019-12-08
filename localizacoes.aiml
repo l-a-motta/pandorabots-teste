@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml>
+
+<category>
+    <pattern># <set>padrao</set> # <set>bandejao</set> #</pattern>
+    <template>
+        Link do bandejao ...
+    </template>
+</category>
+
+<category>
+    <pattern># <set>padrao</set> # <set>blocos</set> #</pattern>
+    <template>
+        Hmmm... Vou te falar um pouco de todos os blocos os ICMC, asism fica mais fácil pra você se localizar depois :)<delay>3</delay>
+        O bloco 1 é onde se localizam os laboratórios de computadores.<delay>3</delay>
+        Lá é onde fica também a impressora do ICMC.<break></break><delay>3</delay><break></break>
+        O bloco 1 fica em frente à bilioteca do ICMC.
+        Aqui vai uma foto do bloco 1.
+        <image>https://emc.acidadeon.com/dbimagens/docente_selecionado_790x505_08052019160259.jpg</image><split></split><delay>3</delay>
+        O bloco 2 é na verdade a nossa biblioteca. Ela fica localizada entre os blocos 1 e 3.<break></break><delay>3</delay>
+        <image>https://web.icmc.usp.br/SCATUSU/Fotos/biblio1.jpg</image><split></split><delay>3</delay>
+        No bloco 3 ficam salas de aulas, sala de professores, e também a sessão técinica do ICMC.<break></break>
+        É o bloco mais bonito do nosso instituto... Ahhhh, lá também fica o jardim secreto !<break></break><delay>6</delay>
+        Essa é uma das entradas do bloco 3... <delay>2</delay><break></break>
+        <image>http://40anos.icmc.usp.br/images/phocagallery/antesDepois/thumbs/phoca_thumb_l_1b.jpg</image><delay>2</delay>
+        E essa é uma vista interna do bloco 3! <delay>1.5</delay><break></break>
+        <image>https://1.bp.blogspot.com/-5NM7oFc6ruA/XVqiILEhPfI/AAAAAAAAKzM/4rirDBI3u6k9gK44Zez2mNIexXzBI3Y1ACEwYBhgL/s1600/ICMC-23_banner_destaque.jpg</image><split></split><delay>3</delay>
+        O bloco 4 também é onde ficam as salas de aulas e dos professores. Ele fica do lado do bloco 3.<delay></delay><break></break>    
+        Essa é uma das entradas do bloco 4... <break></break>
+        <image>https://4.bp.blogspot.com/-T7ITgwPpv8g/W3bdgZvGI7I/AAAAAAAAAGY/-9amU7eGYgQG5R2sBB-21U91bOnyQ5oJACLcBGAs/s400/ICMC-3.jpg</image>
+        E essa a outra, que é acessada pelo bloco 3.<break></break>
+        <image>http://40anos.icmc.usp.br/images/phocagallery/antesDepois/thumbs/phoca_thumb_l_9b.jpg</image>
+    </template>
+</category>
+
+
+
+</aiml>
