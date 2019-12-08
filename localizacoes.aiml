@@ -4,7 +4,8 @@
 <category>
     <pattern># <set>padrao</set> # <set>bandejao</set> #</pattern>
     <template>
-        Link do bandejao ...
+        O restaurante universitário pode ser encontrado perto do centro CAASO, ao lado do Banco do Brasil. Aqui vai uma foto para ter certeza de que achou o lugar certo...<break></break><delay>3</delay>
+        <image>https://raw.githubusercontent.com/DanielSsouto/bot-calouros/master/imgs/bandeco.jpg?token=AKFYAWMNKRPOM72N643ZXBS55VD7O</image><split></split><delay>3</delay>
     </template>
 </category>
 
@@ -19,7 +20,7 @@
         <image>https://emc.acidadeon.com/dbimagens/docente_selecionado_790x505_08052019160259.jpg</image><split></split><delay>3</delay>
         O bloco 2 é na verdade a nossa biblioteca. Ela fica localizada entre os blocos 1 e 3.<break></break><delay>3</delay>
         <image>https://web.icmc.usp.br/SCATUSU/Fotos/biblio1.jpg</image><split></split><delay>3</delay>
-        No bloco 3 ficam salas de aulas, sala de professores, e também a sessão técinica do ICMC.<break></break>
+        No bloco 3 ficam salas de aulas, sala de professores, e também a sessão técnica do ICMC.<break></break>
         É o bloco mais bonito do nosso instituto... Ahhhh, lá também fica o jardim secreto !<break></break><delay>6</delay>
         Essa é uma das entradas do bloco 3... <delay>2</delay><break></break>
         <image>http://40anos.icmc.usp.br/images/phocagallery/antesDepois/thumbs/phoca_thumb_l_1b.jpg</image><delay>2</delay>
