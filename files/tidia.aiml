@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern># que # tidia #</pattern>
+        <template>Tidia Ã© um site onde o aluno pode acompanhar suas disciplinas (aquelas que o professor Ã© adepto do site).
+        LÃ¡ Ã© possÃ­vel ver avisos, atividades e realizar diversas outras aÃ§Ãµes. </template>
+    </category>
+    
+    
+    <category>
+        <pattern>como # <set>entrar</set> # tidia #</pattern>
+        <template>Simples! SÃ³ acessar 
+        <link>
+            <text>aqui</text>
+            <url>https://ae4.tidia-ae.usp.br/portal</url>
+        </link>
+        
+        Ou vocÃª tambÃ©m pode pesquisar "Tidia USP login" no google ;)
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Qual o sentido da vida #</pattern>
+        <template>42!</template>
+    </category>
+
+    
+    <!-- Atividades -->
+    <category>
+        <pattern>onde acho atividades # tidia #</pattern>
+        <template>A aba de Atividades se encontra no site da sua disciplina.</template>
+    </category>
+    
+    <category>
+        <pattern>onde fica atividades # tidia #</pattern>
+        <template>A aba de Atividades se encontra no site da sua disciplina.</template>
+    </category>
+    
+    <category>
+        <pattern>onde Ã© atividades # tidia #</pattern>
+        <template>A aba de Atividades se encontra no site da sua disciplina.</template>
+    </category>
+    
+    <category>
+        <pattern>O que Ã© atividades # tidia #</pattern>
+        <template>Ã a aba onde o docente propÃµe trabalhos a serem entregues (normalmente valem nota, entÃ£o fica espertx! ;)  )</template>
+    </category>
+    
+    <category> <!--AQUI-->
+        <pattern>como # <set>entregar</set> # <set>trabalho</set> # tidia #</pattern>
+        <template>SÃ³ parece complicado, mas nÃ£o Ã©, acredite!
+            1. FaÃ§a login no Tidia e encontre o site da disciplina;
+            2. Encontre a aba de atividades dentro do site;
+            3. Ache seu trabalho a ser entregue dentre os que estÃ£o listados na aba de Atividades;
+            4. Embaixo das especificaÃ§Ãµes do trabalho vocÃª tem a opÃ§Ã£o de digitar no editor de texto ou anexar um arquivo;
+            5. NÃ£o se esqueÃ§a de salvar rascunho e clicar em submeter.
+            Pronto ;)</template>
+    </category>
+    
+    <category>
+        <pattern>Como # <set>ver</set> # notas # <set>trabalho</set> # tidia #</pattern>
+        <template>Bem, depende do seu professor. HÃ¡ docentes que colocam as notas num PDF no RepositÃ³rio, ou no Quadro de Notas, mas caso ele tenha colocar na aba Atividades, ela estarÃ¡ na descriÃ§Ã£o do trabalho.</template>
+    </category>
+    
+    <!-- Avisos -->
+    <category>
+        <pattern>O que # Avisos # tidia #</pattern>
+        <template>A ferramenta Avisos permite a entrega de mensagens para toda a classe, para grupos, ou para seÃ§Ãµes especÃ­ficas dentro da classe.</template>
+    </category>
+    
+    <category>
+        <pattern>Como # <set>ver</set> # avisos # tidia #</pattern>
+        <template>Avisos sÃ£o visualizados em vÃ¡rios locais do Tidia. VocÃª pode vÃª-los a partir do Meu Site, a partir de um curso individual ou site de projeto, ou a partir da ferramenta Avisos.</template>
+    </category>
+    
+    <!--Bate-papo -->
+    <category>
+        <pattern>O que # Bate-Papo # tidia #</pattern>
+        <template>A sala de Bate Papo Ã© em tempo real, a ferramenta de bate-papo sÃ³  permite texto dentro de um site. A ferramenta de Bate-Papo pode ser usada para sÃ­ncronas, conversas nÃ£o estruturadas entre os participantes que estÃ£o logados no site ao mesmo tempo. Somente os participantes inscritos no mesmo site podem conversar usando o bate-papo.</template>
+    </category>
+    
+    <category>
+        <pattern>O que # Bate Papo # tidia #</pattern>
+        <template>A sala de Bate Papo Ã© em tempo real, a ferramenta de bate-papo sÃ³  permite texto dentro de um site. A ferramenta de Bate-Papo pode ser usada para sÃ­ncronas, conversas nÃ£o estruturadas entre os participantes que estÃ£o logados no site ao mesmo tempo. Somente os participantes inscritos no mesmo site podem conversar usando o bate-papo.</template>
+    </category>
+    
+    <category>
+        <pattern>O que # BatePapo # tidia #</pattern>
+        <template>A sala de Bate Papo Ã© em tempo real, a ferramenta de bate-papo sÃ³  permite texto dentro de um site. A ferramenta de Bate-Papo pode ser usada para sÃ­ncronas, conversas nÃ£o estruturadas entre os participantes que estÃ£o logados no site ao mesmo tempo. Somente os participantes inscritos no mesmo site podem conversar usando o bate-papo.</template>
+    </category>
+
+    <!-- Busca -->
+    <category>
+        <pattern># que # Busca # tidia #</pattern>
+        <template>A ferramenta de Busca permite que vocÃª procure o conteÃºdo criado por ferramentas dentro de um site ou curso. </template>
+    </category>
+    
+    <category>
+        <pattern>Como # <set>fazer</set> # busca # tidia #</pattern>
+        <template>Para mais info sobre os tipos de busca por favor pesquise neste 
+            <link>
+                <text>link</text>
+                <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+            </link>
+        </template>
+    </category>
+    
+    <!-- Caixa de mensagens -->
+    <category>
+        <pattern>O que Ã© # Caixa de Mensagens # tidia #</pattern>
+        <template>A ferramenta Caixa de Mensagens permite que os gestores de sites especificar um apelido de endereÃ§o de e-mail que serve essencialmente como um servidor de listas para o site. Por padrÃ£o, o e-mail que vocÃª enviar para o endereÃ§o de e-mail do site Ã© copiado para os endereÃ§os de e-mail de todos os participantes e os proprietÃ¡rios do site.</template>
+    </category>
+    
+    <category>
+        <pattern>O que eh # Caixa de Mensagens # tidia #</pattern>
+        <template>A ferramenta Caixa de Mensagens permite que os gestores de sites especificar um apelido de endereÃ§o de e-mail que serve essencialmente como um servidor de listas para o site. Por padrÃ£o, o e-mail que vocÃª enviar para o endereÃ§o de e-mail do site Ã© copiado para os endereÃ§os de e-mail de todos os participantes e os proprietÃ¡rios do site.</template>
+    </category>
+    
+    <category>
+        <pattern>Como # <set>ver</set> # Caixa de Mensages #</pattern>
+        <template>1. Clique em uma mensagem para visualizar o conteÃºdo da mensagem.
+        2. Ao clicar em um cabeÃ§alho de coluna (De, Assunto ou Data de Recebimento) irÃ¡ classificar as mensagens de e-mail por esse cabeÃ§alho. Clique novamente no cabeÃ§alho para inverter a ordem.
+    </template>
+    </category>
+    
+    <!-- ConteÃºdo PragmÃ¡tico -->
+    <category>
+        <pattern># Ã© # ConteÃºdo ProgramÃ¡tico # tidia #</pattern>
+        <template>A ferramenta ConteÃºdo ProgramÃ¡tico fornece um local no site do curso para o instrutor postar um conteÃºdo programÃ¡tico e para os alunos acessarem esse conteÃºdo programÃ¡tico.</template>
+    </category>
+    
+    <category>
+        <pattern># Ã© # Conteudo Programatico # tidia #</pattern>
+        <template>A ferramenta ConteÃºdo ProgramÃ¡tico fornece um local no site do curso para o instrutor postar um conteÃºdo programÃ¡tico e para os alunos acessarem esse conteÃºdo programÃ¡tico.</template>
+    </category>
+    
+    <category>
+        <pattern># Ã© # Conteudo ProgramÃ¡tico # tidia #</pattern>
+        <template>A ferramenta ConteÃºdo ProgramÃ¡tico fornece um local no site do curso para o instrutor postar um conteÃºdo programÃ¡tico e para os alunos acessarem esse conteÃºdo programÃ¡tico.</template>
+    </category>
+    
+    <category>
+        <pattern># Ã© # ConteÃºdo Programatico # tidia #</pattern>
+        <template>A ferramenta ConteÃºdo ProgramÃ¡tico fornece um local no site do curso para o instrutor postar um conteÃºdo programÃ¡tico e para os alunos acessarem esse conteÃºdo programÃ¡tico.</template>
+    </category>
+    
+    <category>
+        <pattern># eh # ConteÃºdo ProgramÃ¡tico # tidia #</pattern>
+        <template>A ferramenta ConteÃºdo ProgramÃ¡tico fornece um local no site do curso para o instrutor postar um conteÃºdo programÃ¡tico e para os alunos acessarem esse conteÃºdo programÃ¡tico.</template>
+    </category>
+    
+    <category>
+        <pattern># eh # Conteudo Programatico # tidia #</pattern>
+        <template>A ferramenta ConteÃºdo ProgramÃ¡tico fornece um local no site do curso para o instrutor postar um conteÃºdo programÃ¡tico e para os alunos acessarem esse conteÃºdo programÃ¡tico.</template>
+    </category>
+    
+    <category>
+        <pattern># eh # Conteudo ProgramÃ¡tico # tidia #</pattern>
+        <template>A ferramenta ConteÃºdo ProgramÃ¡tico fornece um local no site do curso para o instrutor postar um conteÃºdo programÃ¡tico e para os alunos acessarem esse conteÃºdo programÃ¡tico.</template>
+    </category>
+    
+    <category>
+        <pattern># eh # ConteÃºdo Programatico # tidia #</pattern>
+        <template>A ferramenta ConteÃºdo ProgramÃ¡tico fornece um local no site do curso para o instrutor postar um conteÃºdo programÃ¡tico e para os alunos acessarem esse conteÃºdo programÃ¡tico.</template>
+    </category>
+    
+    <category>
+        <pattern># imprimo # programÃ¡tico # tidia #</pattern>
+        <template>1. Selecione a ferramenta ConteÃºdo ProgramÃ¡tico no Menu de Ferramentas do seu site.
+    2. Clicar em Visualizar ImpressÃ£o.
+    3. Clique em Enviar para Impressora.
+    4. Uma nova janela serÃ¡ aberta e exibirÃ¡ todo o conteÃºdo programÃ¡tico em uma Ãºnica janela. 
+    5. Clique no link Enviar Para Impressora no canto superior esquerdo da janela para imprimir.</template>
+    </category>
+    
+    <category>
+        <pattern># imprimir # programatico # tidia #</pattern>
+        <template>1. Selecione a ferramenta ConteÃºdo ProgramÃ¡tico no Menu de Ferramentas do seu site.
+    2. Clicar em Visualizar ImpressÃ£o.
+    3. Clique em Enviar para Impressora.
+    4. Uma nova janela serÃ¡ aberta e exibirÃ¡ todo o conteÃºdo programÃ¡tico em uma Ãºnica janela. 
+    5. Clique no link Enviar Para Impressora no canto superior esquerdo da janela para imprimir.</template>
+    </category>
+    
+    
+    <!-- Cronograma -->
+    <category>
+        <pattern># Ã© # Cronograma # tidia #</pattern>
+        <template>A ferramenta Cronograma permite que os instrutores ou organizadores do site postem eventos num formato de calendÃ¡rio.</template>
+    </category>
+    
+    <category>
+        <pattern># Ã© # CalendÃ¡rio # tidia #</pattern>
+        <template>A ferramenta Cronograma permite que os instrutores ou organizadores do site postem eventos num formato de calendÃ¡rio.</template>
+    </category>
+    
+    <category>
+        <pattern># Ã© # Calendario # tidia #</pattern>
+        <template>A ferramenta Cronograma permite que os instrutores ou organizadores do site postem eventos num formato de calendÃ¡rio.</template>
+    </category>
+    
+    <category>
+        <pattern># eh # Cronograma # tidia #</pattern>
+        <template>A ferramenta Cronograma permite que os instrutores ou organizadores do site postem eventos num formato de calendÃ¡rio.</template>
+    </category>
+    
+    <category>
+        <pattern># eh # CalendÃ¡rio # tidia #</pattern>
+        <template>A ferramenta Cronograma permite que os instrutores ou organizadores do site postem eventos num formato de calendÃ¡rio.</template>
+    </category>
+    
+    <category>
+        <pattern># eh # Calendario # tidia #</pattern>
+        <template>A ferramenta Cronograma permite que os instrutores ou organizadores do site postem eventos num formato de calendÃ¡rio.</template>
+    </category>
+    
+    <category>
+        <pattern># <set>alterar</set> # Cronograma # tidia #</pattern>
+        <template>Procure por 'OpÃ§Ãµes' no CalendÃ¡rio
+    1. O menu suspenso Visualizar permite selecionar o seu modo de exibiÃ§Ã£o padrÃ£o por MÃªs ou por Dia.
+    2. VocÃª pode definir Alta, MÃ©dia ou Baixa prioridade para os itens no CalendÃ¡rio. Isso mudarÃ¡ a cor do item na exibiÃ§Ã£o no CalendÃ¡rio. Clique em um item na lista e selecione os botÃµes Mover para Cima ou Mover para Baixo para alterar o nÃ­vel de prioridade desse item.
+    3. VocÃª tambÃ©m pode especificar cores personalizadas para diferentes nÃ­veis de prioridade. VocÃª pode indicar a cor, digitando um valor de cor numÃ©rico  Hexadecimal, ou clicando no Ã­cone paleta de cores para selecionar cores da Web.
+    4. NÃ£o se esqueÃ§a de clicar em Atualizar para salvar as alteraÃ§Ãµes.
+</template>
+    </category>
+    
+    <category>
+        <pattern># <set>alterar</set> # Calendario # tidia #</pattern>
+        <template>Procure por 'OpÃ§Ãµes' no CalendÃ¡rio
+    1. O menu suspenso Visualizar permite selecionar o seu modo de exibiÃ§Ã£o padrÃ£o por MÃªs ou por Dia.
+    2. VocÃª pode definir Alta, MÃ©dia ou Baixa prioridade para os itens no CalendÃ¡rio. Isso mudarÃ¡ a cor do item na exibiÃ§Ã£o no CalendÃ¡rio. Clique em um item na lista e selecione os botÃµes Mover para Cima ou Mover para Baixo para alterar o nÃ­vel de prioridade desse item.
+    3. VocÃª tambÃ©m pode especificar cores personalizadas para diferentes nÃ­veis de prioridade. VocÃª pode indicar a cor, digitando um valor de cor numÃ©rico  Hexadecimal, ou clicando no Ã­cone paleta de cores para selecionar cores da Web.
+    4. NÃ£o se esqueÃ§a de clicar em Atualizar para salvar as alteraÃ§Ãµes.
+</template>
+    </category>
+    
+    <category>
+        <pattern># <set>alterar</set> # CalendÃ¡rio # tidia #</pattern>
+        <template>Procure por 'OpÃ§Ãµes' no CalendÃ¡rio
+    1. O menu suspenso Visualizar permite selecionar o seu modo de exibiÃ§Ã£o padrÃ£o por MÃªs ou por Dia.
+    2. VocÃª pode definir Alta, MÃ©dia ou Baixa prioridade para os itens no CalendÃ¡rio. Isso mudarÃ¡ a cor do item na exibiÃ§Ã£o no CalendÃ¡rio. Clique em um item na lista e selecione os botÃµes Mover para Cima ou Mover para Baixo para alterar o nÃ­vel de prioridade desse item.
+    3. VocÃª tambÃ©m pode especificar cores personalizadas para diferentes nÃ­veis de prioridade. VocÃª pode indicar a cor, digitando um valor de cor numÃ©rico  Hexadecimal, ou clicando no Ã­cone paleta de cores para selecionar cores da Web.
+    4. NÃ£o se esqueÃ§a de clicar em Atualizar para salvar as alteraÃ§Ãµes.
+</template>
+    </category>
+    
+    <category>
+        <pattern>Como # imprimir # Cronograma # tidia #</pattern>
+        <template>1. Selecione a ferramenta Cronograma a partir do Menu de Ferramentas no seu site. (Lembre-se que ele tambÃ©m pode ser chamado de CalendÃ¡rio.);
+        2. Clicar em  VersÃ£o para ImpressÃ£o;
+        3. PDF para impressÃ£o;
+        4. Uma nova janela serÃ¡ aberta com uma versÃ£o em PDF da versÃ£o atual do calendÃ¡rioo. Imprima ou salve o arquivo PDF a partir desta janela.</template>
+    </category>
+    
+    <category>
+        <pattern>Como # imprimir # Calendario # tidia #</pattern>
+        <template>1. Selecione a ferramenta Cronograma a partir do Menu de Ferramentas no seu site. (Lembre-se que ele tambÃ©m pode ser chamado de CalendÃ¡rio.);
+        2. Clicar em  VersÃ£o para ImpressÃ£o;
+        3. PDF para impressÃ£o;
+        4. Uma nova janela serÃ¡ aberta com uma versÃ£o em PDF da versÃ£o atual do calendÃ¡rioo. Imprima ou salve o arquivo PDF a partir desta janela.</template>
+    </category>
+    
+    <category>
+        <pattern>Como # imprimir # CalendÃ¡rio # tidia #</pattern>
+        <template>1. Selecione a ferramenta Cronograma a partir do Menu de Ferramentas no seu site. (Lembre-se que ele tambÃ©m pode ser chamado de CalendÃ¡rio.);
+        2. Clicar em  VersÃ£o para ImpressÃ£o;
+        3. PDF para impressÃ£o;
+        4. Uma nova janela serÃ¡ aberta com uma versÃ£o em PDF da versÃ£o atual do calendÃ¡rioo. Imprima ou salve o arquivo PDF a partir desta janela.</template>
+    </category>
+    
+    <!-- Editor de Texto -->
+    <category>
+        <pattern># Editor # Texto # tidia #</pattern>
+        <template>A barra de ferramentas do texto rico tem Ã­cones para editar e formatar seu texto. VocÃª pode usar o editor de texto rico para incluir imagens, links, Ã¡udio e vÃ­deo, bem como texto
+            <link>
+                <text>Para mais informaÃ§Ãµes clique aqui</text>
+                <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+            </link>
+        </template>
+    </category>
+    
+    <!-- Enquetes -->
+    <category>
+        <pattern># Ã© # Enquetes # tidia #</pattern>
+        <template>A ferramenta Enquetes aos instrutores postarem uma questÃ£o de mÃºltipla escolha em seu site. Enquetes podem ser estruturadas de forma a obter respostas Ãºnicas ou mÃºltiplas a uma pergunta.</template>
+    </category>
+    
+    <category>
+        <pattern># eh # Enquetes # tidia #</pattern>
+        <template>A ferramenta Enquetes aos instrutores postarem uma questÃ£o de mÃºltipla escolha em seu site. Enquetes podem ser estruturadas de forma a obter respostas Ãºnicas ou mÃºltiplas a uma pergunta.</template>
+    </category>
+    
+    <category>
+        <pattern>Como # voto # enquete # tidia #</pattern>
+        <template>Ã simples! 
+        1. VÃ¡ para Enquetes;
+        2. Clicar em uma alternativa e, em seguida, clicar em Votar
+        Pronto ;) </template>
+    </category>
+    
+    <category>
+        <pattern>Como # votar # enquete # tidia #</pattern>
+        <template>Ã simples! 
+        1. VÃ¡ para Enquetes;
+        2. Clicar em uma alternativa e, em seguida, clicar em Votar
+        Pronto ;) </template>
+    </category>
+
+    <!-- Escaninho -->
+    <category>
+        <pattern> Escaninho # tidia #</pattern>
+        <template>A ferramenta Escaninho cria uma pasta para cada aluno no curso. Os alunos sÃ³ sÃ£o capazes de acessar sua prÃ³pria pasta. Os alunos e instrutores podem colocar os arquivos nas pastas o Escaninho.
+            <link>
+                <text>Para mais informaÃ§Ãµes clique aqui</text>
+                <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+            </link>
+        </template>
+    </category>
+
+    <!-- ExercÃ­cios -->
+    <category>
+        <pattern># ExercÃ­cios # tidia #</pattern>
+        <template>A ferramenta ExercÃ­cios permite que os instrutores criem avaliaÃ§Ãµes on-line (ou seja, testes, exames, questionÃ¡rios e etc) para entrega via interface web para alunos ou outros grupos.
+        Para saber como adicionar uma avaliaÃ§Ã£o, por favor pesquise
+        <link>
+            <text>aqui</text> 
+            <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+        </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern># Exercicios # tidia #</pattern>
+        <template>A ferramenta ExercÃ­cios permite que os instrutores criem avaliaÃ§Ãµes on-line (ou seja, testes, exames, questionÃ¡rios e etc) para entrega via interface web para alunos ou outros grupos.
+        <link>
+            <text>aqui</text> 
+            <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+        </link>
+        </template>
+    </category>
+    
+    <!-- FÃ³runs -->
+    <category>
+        <pattern># FÃ³runs # tidia #</pattern>
+        <template>A ferramenta FÃ³runs permite que os instrutores ou lÃ­deres do site crie um nÃºmero ilimitado de fÃ³runs de discussÃ£o, e Ã© integrado em estreita colaboraÃ§Ã£o com outras ferramentas, como RepositÃ³rio e Quadro de Notas. Para saber mais, por favor pesquise
+        <link>
+            <text>aqui</text>
+            <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+        </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern># FÃ³rum # tidia #</pattern>
+        <template>A ferramenta FÃ³runs permite que os instrutores ou lÃ­deres do site crie um nÃºmero ilimitado de fÃ³runs de discussÃ£o, e Ã© integrado em estreita colaboraÃ§Ã£o com outras ferramentas, como RepositÃ³rio e Quadro de Notas. Para saber mais, por favor pesquise
+        <link>
+            <text>aqui</text>
+            <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+        </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern># Foruns # tidia #</pattern>
+        <template>A ferramenta FÃ³runs permite que os instrutores ou lÃ­deres do site crie um nÃºmero ilimitado de fÃ³runs de discussÃ£o, e Ã© integrado em estreita colaboraÃ§Ã£o com outras ferramentas, como RepositÃ³rio e Quadro de Notas. Para saber mais, por favor pesquise
+        <link>
+            <text>aqui</text>
+            <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+        </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern># Forum # tidia #</pattern>
+        <template>A ferramenta FÃ³runs permite que os instrutores ou lÃ­deres do site crie um nÃºmero ilimitado de fÃ³runs de discussÃ£o, e Ã© integrado em estreita colaboraÃ§Ã£o com outras ferramentas, como RepositÃ³rio e Quadro de Notas. Para saber mais, por favor pesquise
+        <link>
+            <text>aqui</text>
+            <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+        </link>
+        </template>
+    </category>
+    
+    <!-- Gerenciador de ReuniÃµes-->
+    <category>
+        <pattern># Gerenciador de ReuniÃµes # tidia #</pattern>
+        <template>EU nÃ£o sei muito sobre isso... por favor pesquise 
+            <link>
+                <text>aqui</text>
+                <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern># Gerenciador de Reunioes # tidia #</pattern>
+        <template>EU nÃ£o sei muito sobre isso... por favor pesquise 
+            <link>
+                <text>aqui</text>
+                <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+            </link>
+        </template>
+    </category>
+    
+    <!-- LiÃ§Ãµes -->
+    <category>
+        <pattern># LiÃ§Ãµes # tidia #</pattern>
+        <template>As LiÃ§Ãµes se encontram dentro do site da disciplina. Para saber mais sobre as liÃ§Ãµes, por favor pesquise
+        <link>
+            <text>aqui</text>
+            <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+        </link>
+        </template>
+    </category>
+    
+    <!-- Mensagens -->
+    <category>
+        <pattern>Mensagens # tidia #</pattern>
+        <template>Mensagens oferece um modo conveniente de enviar e receber mensagens privadas para outros membros inscritos no site do curso.</template>
+    </category>
+    
+    <category>
+        <pattern>Como # <set>ver</set> # mensagens # tidia #</pattern>
+        <template>Ã fÃ¡cil! Apenas vÃ¡ para o site da disciplina, clique em mensagens, e acesse "Recebidas", e lÃ¡ estarÃ£o elas :D</template>
+    </category>
+    
+    <category>
+        <pattern>Como # <set>entregar</set> # mensagem # tidia #</pattern>
+        <template>Na aba 'Mensagens' vocÃª verÃ¡ "Compor Mensagem", lÃ¡ conseguirÃ¡ enviar para qualquer pessoa que curse esta mesma disciplina.</template>
+    </category>
+
+    <!-- Meu Site -->
+    <category>
+        <pattern>O que Ã© Meu Site # tidia #</pattern>
+        <template>Quando vocÃª fizer login no Sakai, vocÃª verÃ¡ imediatamente o Meu Site, sua Ã¡rea de trabalho individual no sistema.</template>
+    </category>
+    
+    <category>
+        <pattern>O que eh Meu Site # tidia #</pattern>
+        <template>Quando vocÃª fizer login no Sakai, vocÃª verÃ¡ imediatamente o Meu Site, sua Ã¡rea de trabalho individual no sistema.</template>
+    </category>
+
+    <!-- NotÃ­cias -->
+    <category>
+        <pattern># NotÃ­cias # tidia #</pattern>
+        <template>Hmm.. nÃ£o sei muito sobre isso. Mas sei onde encontrar, por favor pesquise
+        <link>
+            <text>aqui</text>
+            <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+        </link>
+        </template>
+    </category>
+    
+    <!-- Participantes -->
+    <category>
+        <pattern>Participantes # tidia #</pattern>
+        <template>Em Participantes se exibe o nÃºmero de participantes do site junto com seus nomes, fotos e perfis.</template>
+    </category>
+    
+    <category>
+        <pattern>Como # <set>ver</set> # participantes #</pattern>
+        <template>Na pÃ¡gina da disciplina terÃ¡ uma aba 'Participantes', lÃ¡ estarÃ£o todos os alunos matriculados naquela matÃ©ria.</template>
+    </category>
+    
+    <!-- Perfil -->
+    <category>
+        <pattern># Perfil # tidia #</pattern>
+        <template></template>
+    </category>
+    
+    <category>
+        <pattern>Como # <set>alterar</set> # perfil # tidia </pattern>
+        <template>VÃ¡ para Perfil.
+        Para mudar sua foto: Passe o mouse sobre a Ã¡rea da imagem e selecione Alterar foto para enviar uma nova foto.
+        Mada alterar informaÃ§Ãµes: Passe o mouse sobre o lado direito da informaÃ§Ã£o de cada seÃ§Ã£o perto da regra horizontal para exibir a opÃ§Ã£o de ediÃ§Ã£o. Clique no link Alterar para modificar ou adicionar suas informaÃ§Ãµes.</template>
+    </category>
+    
+    <category>
+        <pattern>Como eu altero minhas configuraÃ§Ãµes de privacidade</pattern>
+        <template>VocÃª pode acessar o botÃ£o 'Privacidade' dentro do seu Perfil, assim abrirÃ¡ um menu de configuraÃ§Ãµes.</template>
+    </category>
+    
+    <!-- Podcasts -->
+   <category>
+        <pattern># podcast # tidia #</pattern>
+        <template>Hmm.. nÃ£o sei muito sobre isso, mas vocÃª pode pesquisar 
+        <link>
+            <text>aqui</text>
+            <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+        </link>
+        </template>
+    </category>
+    
+    <!-- PostEm -->
+    <category>
+        <pattern># postem # tidia #</pattern>
+        <template>Hmm.. nÃ£o sei muito sobre isso, mas vocÃª pode pesquisar 
+        <link>
+            <text>aqui</text>
+            <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+        </link>
+        </template>
+    </category>
+    
+    <!-- Quadro de Notas -->
+    <category>
+        <pattern># Ã© o Quadro de Notas</pattern>
+        <template>O Quadro de Notas Ã© uma ferramenta que os instrutores usam para calcular e armazenar informaÃ§Ãµes de notas e distribuÃ­-las para os alunos online.</template>
+    </category>
+    
+    <category>
+        <pattern># eh o Quadro de Notas</pattern>
+        <template>O Quadro de Notas Ã© uma ferramenta que os instrutores usam para calcular e armazenar informaÃ§Ãµes de notas e distribuÃ­-las para os alunos online.</template>
+    </category>
+    
+    <category>
+        <pattern>Como # <set>ver</set> # Notas # tidia #</pattern>
+        <template>Acessando o site do curso serÃ¡ possÃ­vel achar a aba de Quadro de Notas.</template>
+    </category>
+    
+    <!-- RepositÃ³rio -->
+    <category>
+        <pattern>O que # RepositÃ³rio # tidia #</pattern>
+        <template>A ferramenta RepositÃ³rio permite que os instrutores compartilhem uma grande variedade de arquivos com seus alunos dentro de um site. Os usuÃ¡rios individuais tambÃ©m podem ter RepositÃ³rio dentro de sua Ã¡rea pessoal Meu Site.</template>
+    </category>
+    
+    <category>
+        <pattern>O que # Repositorio # tidia #</pattern>
+        <template>A ferramenta RepositÃ³rio permite que os instrutores compartilhem uma grande variedade de arquivos com seus alunos dentro de um site. Os usuÃ¡rios individuais tambÃ©m podem ter RepositÃ³rio dentro de sua Ã¡rea pessoal Meu Site.
+        VocÃª pode acess=a-lo direto do seu site, ou entrando no site do curso.</template>
+    </category>
+
+    <!-- Sites de Curso e projeto -->
+    <category>
+        <pattern># sites de curso e projeto # tidia #</pattern>
+        <template>Hmm.. nÃ£o sei muito sobre isso, mas vocÃª pode pesquisar 
+        <link>
+            <text>aqui</text>
+            <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+        </link>
+        </template>
+    </category>
+    
+    <!-- Wiki -->
+    <category>
+        <pattern># wiki # tidia #</pattern>
+        <template>Hmm.. nÃ£o sei muito sobre isso, mas vocÃª pode pesquisar 
+        <link>
+            <text>aqui</text>
+            <url>https://ae4.tidia-ae.usp.br/portal/help/main</url>
+        </link>
+        </template>
+    </category>
+    
+</aiml>

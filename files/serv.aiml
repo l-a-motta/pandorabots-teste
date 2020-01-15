@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+    	<pattern># documento #</pattern>
+    	<template>
+    		<button>
+    			<text>Clique aqui para encontrar informaÃ§Ãµes atualizadas sobre documentos necessÃ¡rios</text>
+                <url>https://www.icmc.usp.br/graduacao/informacoes-gerais-e-servicos</url>
+    		</button>
+    </template>
+    </category>
+    
+    <category>
+    	<pattern># documentos #</pattern>
+    	<template>
+            <srai>documento</srai>
+        </template>
+    </category>
+    
+    <category>
+    	<pattern># horÃ¡rio # aulas #</pattern>
+    	<template>
+    		<button>
+    		    <text>Clique aqui para ver os horÃ¡rios das aulas</text>
+                <url>https://www.icmc.usp.br/graduacao/informacoes-gerais-e-servicos/horarios-de-aulas</url>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+    	<pattern># horÃ¡rios # aulas #</pattern>
+    	<template>
+    		<srai>horÃ¡rio aulas</srai>
+        </template>
+    </category>
+    
+    <category>
+    	<pattern># serviÃ§o militar # matrÃ­cula #</pattern>
+    	<template>NÃ£o hÃ¡ relaÃ§Ã£o entre serviÃ§o militar e matrÃ­cula na USP. SÃ£o processos geridos por instituiÃ§Ãµes diferentes.</template>
+    </category>
+    
+    <category>
+    	<pattern># tiro de guerra # matrÃ­cula #</pattern>
+    	<template><srai>serviÃ§o militar matrÃ­cula</srai></template>
+    </category>
+    
+    <category>
+    	<pattern># exÃ©rcito # matrÃ­cula #</pattern>
+    	<template><srai>serviÃ§o militar matrÃ­cula</srai></template>
+    </category>
+    
+    <category>
+    	<pattern># permanÃªncia estudantil #</pattern>
+    	<template>
+    		<button>
+    			<text>Clique aqui para mais informaÃ§Ãµes sobre apoio para permanÃªncia estudantil</text>
+    			<url>http://www.saocarlos.usp.br/permanencia-estudantil/</url>
+    		</button>
+    </template>
+    </category>
+    
+    <category>
+    	<pattern># bolsa # permanÃªncia #</pattern>
+    	<template><srai>permanÃªncia estudantil</srai></template>
+    </category>
+    
+    <category>
+    	<pattern># moradia #</pattern>
+    	<template><srai>permanÃªncia estudantil</srai></template>
+    </category>
+    
+    <category>
+    	<pattern># bolsa de estudos #</pattern>
+    	<template>HÃ¡ diversos tipos de bolsa, como bolsa para permanÃªncia estudantil, bolsa trabalho e bolsa de iniciaÃ§Ã£o cientÃ­fica. Cada uma delas tem regras e diretrizes prÃ³prias.</template>
+    </category>
+    
+    <category>
+    	<pattern># nota # aprovado #</pattern>
+    	<template>A nota mÃ­nima para ser aprovado na USP Ã© 5,0.</template>
+    </category>
+    
+    <category>
+    	<pattern># nota mÃ­nima #</pattern>
+    	<template><srai>nota para ser aprovado</srai></template>
+    </category>
+    
+    <category>
+    	<pattern># mÃ©dia #</pattern>
+    	<template>
+    	    <srai>nota para ser aprovado</srai>
+    	</template>
+    </category>
+    
+    <category>
+    	<pattern># presenÃ§a mÃ­nima #</pattern>
+    	<template>A presenÃ§a mÃ­nima nas aulas na USP Ã© de 70%.</template>
+    </category>
+    
+    <category>
+    	<pattern># frequÃªncia # mÃ­nima #</pattern>
+    	<template><srai>presenÃ§a mÃ­nima</srai></template>
+    </category>
+    
+    <category>
+    	<pattern># mais informaÃ§Ã£o sobre #</pattern>
+    	<template>
+    		<button>
+    			<text>Clique aqui para saber mais sobre <star index="2"/></text>
+                <url>https://web.icmc.usp.br/SCINFOR/Portal/manual-novos-alunos.pdf</url>
+    		</button>
+        </template>
+    </category>
+    
+    <category>
+    	<pattern># mais informaÃ§Ãµes sobre #</pattern>
+    	<template><srai>mais informaÃ§Ã£o sobre</srai></template>
+    </category>
+    
+    <category>
+    	<pattern># matrÃ­cula # disciplinas #</pattern>
+        <template>Os alunos ingressantes que nÃ£o tenham vindo de transferÃªncia nÃ£o precisam se preocupar com  a matrÃ­cula em disciplinas no inÃ­cio do primeiro semestre. No entanto, a partir do final dele, devem ficar atentos aos seus e-mails e ao calendÃ¡rio do jÃºpiter.</template>
+    </category>
+    
+    <category>
+    	<pattern># matrÃ­cula # matÃ©rias #</pattern>
+    	<template><srai>matrÃ­cula disciplinas</srai></template>
+    </category>
+    
+    <category>
+    	<pattern># tirar # cartÃ£o USP #</pattern>
+    	<template>Os cartÃµes USP devem ser solicitados pelo jÃºpiter durante as primeiras semanas do inÃ­cio do primeiro semestre. A data de sua entrega Ã© avisada atravÃ©s de um e-mail. Em caso de perda, outro cartÃ£o USP deve ser solicitado.</template>
+    </category>
+    
+    <category>
+    	<pattern># funciona # matrÃ­cula #</pattern>
+    	<template>
+    		<button>
+    		    <text>Clique aqui para ver um manual sobre a matrÃ­cula interativa no sistema JupiterWeb</text>
+                <url>http://www.prg.usp.br/wp-content/uploads/Nova-matr%C3%ADcula-interativa_2017.pdf</url>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+    	<pattern># matrÃ­cula # interativa #</pattern>
+    	<template>
+    	    <srai>funciona matrÃ­cula</srai>
+    	</template>
+    </category>
+    
+    <category>
+        <pattern># matrÃ­cula # jupiter #</pattern>
+        <template><srai>funciona matrÃ­cula</srai></template>
+    </category>
+
+    <category>
+    	<pattern># cartao usp #</pattern>
+    	<template> 
+    	    <srai>tirar cartÃ£o USP</srai>
+    	</template>
+    </category>
+    		
+    <category>
+    	<pattern># cartao USP #</pattern>
+    	<template> <srai>tirar cartÃ£o USP</srai></template>
+    </category>
+    
+    <category>
+    	<pattern># cartao Usp #</pattern>
+    	<template> <srai>tirar cartÃ£o USP</srai></template>
+    </category>
+    
+    <category>
+    	<pattern># carterinha #</pattern>
+    	<template> <srai>tirar cartÃ£o USP</srai></template>
+    </category>
+
+</aiml>

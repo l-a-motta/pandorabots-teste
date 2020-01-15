@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+	    <pattern># <set>bandejaosinom</set> #</pattern>
+	    <template>
+	        O restaurante universitÃ¡rio Ã© onde a maioria do alunos comem. Para carregar deve ir na janela de recarga que fica localizada na parte de trÃ¡s do bandejÃ£o. Para entrar apenas Ã© necessÃ¡rio o cartÃ£o USP.
+	    </template>
+    </category>
+	
+	<category>           
+	    <pattern># horario # <set>bandejaosinom</set> #</pattern>
+	    <template>
+            Restaurante Campus 1: <br/>
+            Segunda Ã  Sexta-Feira <br/>
+            CafÃ©: 07:00 Ã s 08:00 (Bolsistas apenas) <br/>
+            AlmoÃ§o: 11:00 Ã s 13:15 <br/>
+            Jantar: 17:15 Ã s 19:15 <br/>
+            SÃ¡bado <br/>
+            AlmoÃ§o: 11:30 Ã s 13:00 <br/>
+            Domingo: Fechado <br/> <br/>
+            Restaurante Campus 2: <br/>
+            Segunda Ã  Sexta-Feira <br/>
+            AlmoÃ§o: 11:15 Ã s 12:45 <br/>
+            SÃ¡bado: Fechado <br/>
+            Domingo: Fechado <br/>
+	    </template>
+    </category>
+	
+	<category>           
+	    <pattern># <set>bandejaosinom</set> # horario #</pattern>
+	    <template>
+            <srai>horario bandejao</srai>
+	    </template>
+    </category>
+	
+</aiml>

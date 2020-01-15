@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+    <pattern>^ CADASTRAR ^ JUPITER ^</pattern>
+    <template>
+        1- Entre na aba âprimeiro acessoâ na coluna do lado esquerdo da tela. <br/>
+        2- Preencha os campos. <br/>â¨â¨
+
+        O usuÃ¡rio (seu nÃºmero usp) Ã© o seu nÃºmero de identificaÃ§Ã£o na usp, ele estarÃ¡ em um documento que Ã© entregue a vocÃª no momento da sua matrÃ­cula.<br/>
+    </template>
+    </category>
+  
+    <category>
+      <pattern>^ ALTERAR ^ SENHA ^ JUPITER ^</pattern>
+      <template>
+            1- Acesse o JÃºpiter Web. <br/>
+            2- Clique em âentrarâ. <br/>
+            3- UsuÃ¡rio (nusp) e senha unificada. <br/>
+            4- Link  âAlterar Senhaâ. <br/>
+            5- Siga as instruÃ§Ãµes.
+      </template>
+    </category>
+      
+    <category>
+         <pattern>^ ATESTADO ^ MATRICULA ^</pattern>
+         <template>
+                1- Entre no JÃºpiter Web com seu nÃºmero USP e senha. <br/>
+                2- No menu âAcesso restritoâ, clique em âEmissÃ£o de Documentosâ <br/>
+                3- Selecione seu curso e o documento a ser emitido.<br/>
+                4- Clique em âBuscarâ.<br/>
+                Os documentos sÃ£o emitidos em formato pdf. e possuem autenticaÃ§Ã£o eletrÃ´nica, dispensando carimbo e assinatura do ServiÃ§o de GraduaÃ§Ã£o.
+         </template>
+    </category>
+
+    <category>
+        <pattern>^ HISTORICO ESCOLAR ^</pattern>
+        <template>
+            1 - Acessar o JÃºpiter Web.<br/>
+            2 - Clicar em âHistÃ³rico Escolarâ no menu âÃrea restritaâ.<br/>
+            3 - Selecione âProgramaâ , âCursoâ e opÃ§Ã£o.<br/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ EDITAL ^ INTERCAMBIO ^</pattern>
+        <template>
+            Os editais sÃ£o de responsabilidade da ComissÃ£o das RelaÃ§Ãµes Internacionais (CRInt) do ICMC/USP.<br/>
+            Eles atuam integrados com a ComissÃ£o de CooperaÃ§Ã£o Internacional - CCInt.<br/>
+            SÃ£o geridos no sistema Mundus https://uspdigital.usp.br/mundus/<br/><br/>
+            1 - Acesse o sistema mundus (nÃ£o Ã© necessÃ¡rio logar)<br/>
+            2 - Menu âPÃºblicoâ > Editais > Alunos de graduaÃ§Ã£o > Editais<br/>
+            3 - Ã possÃ­vel acessar todos<br/>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^EDITAL ^ BOLSA ^</pattern>
+        <template>
+            Bolsas do Programa de apoio Ã  permanÃªncia e formaÃ§Ã£o estudantil (o PAPFE) <br/>
+            Vc pode acessar em http://www.puspsc.usp.br/bolsas-e-auxilios/<br/>
+            1 - Acesse o site da puspsc.<br/>
+            2 - Menu âConsulteâ > âBolsas e AuxÃ­liosâ.<br/>
+            3 - Procurar o link do documento âInscriÃ§Ãµes : acesse o edital (ano atual)â.<br/><br/>
+            Outros tipos de auxÃ­lio:<br/>
+            - Bolsa PUB <br/>
+            - Bolsa Monitoria<br/>
+            - Bolsa IC<br/>
+            - Bolsa Fapesp<br/>
+            - Bolsa Cnpq<br/>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ NOVO CARTAO USP ^</pattern>
+        <template>
+            1- Acesse o jÃºpiter web com nusp e senha.<br/>
+            2- Menu âAcesso restritoâ.<br/>
+            3- Aba âCartÃ£o USPâ.<br/>
+            4- Nova SolicitaÃ§Ã£o.<br/>
+            5- Escolha o motivo no menu suspenso.<br/>
+            6- Salvar.<br/>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>COMO VER A GRADE HORARIA</pattern>
+        <template>
+            1- Acesse o JÃºpiter web.<br/>
+            2- Menu âAcesso Restritoâ.<br/>
+            3- Aba âGrade Horariaâ.<br/>
+            4- Escolha o curso no menu suspenso.<br/>
+            5- Buscar.<br/>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ VER ^ DISCIPLINAS ^</pattern>
+        <template>
+            Com o cÃ³digo da disciplina, Ã© possÃ­vel procurar em um buscador do JÃºpiter..<br/>
+            1- Jupiter web (NÃ£o precisa logar).<br/>
+            2- Menu âPÃºblicoâ.<br/>
+            3- Aba de âBusca por disciplinaâ ou âBusca por turmaâ:<br/>
+             - âBusca por disciplinaâ > Escolher entre buscar por cÃ³digo ou por parte do nome.<br/>
+             - âBusca por turmaâ > No momento que foi acionado.<br/>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MONTAR ^ MATRICULA ^</pattern>
+        <template>
+            A matrÃ­cula dos calouros Ã© fixa.<br/>
+            A partir do segundo semestre o aluno deve montar a grade. <br/>
+            Quando abrir o perÃ­odo de matrÃ­cula, ela pode ser feita:<br/>
+            1- Acessar o Jupiter web.<br/>
+            2- Menu âAcesso Restritoâ.<br/>
+            3- Aba âMatrÃ­culaâ.<br/>
+            4- Aba âFazer matrÃ­culaâ.<br/>
+            5- Montar Grade da MatrÃ­cula.<br/>
+        </template>
+    </category>
+    <category>
+        <pattern>^ REQUERIMENTO ^ MATRICULA ^</pattern>
+        <template>
+            Nesse link tem alguma coisa sobre requerimento de matrÃ­cula <br/>
+            http://www.prg.usp.br/alunos-2/jupiter-web-em-videos/requerimento-de-matricula-online/ <br/>
+            (Fora do perÃ­odo de matrÃ­cula vc deve ir na seÃ§Ã£o de alunos) <br/>
+            No devido perÃ­odo de requerimento: <br/>
+            No perÃ­odo de requerimento: <br/>
+            1- Acesse o jupiter web. <br/>
+            2- Menu âAcesso Restritoâ. <br/>
+            3- Aba âRequerimentoâ. <br/>
+            4- OpÃ§Ã£o âRequerimento de matrÃ­culaâ.<br/>
+            5- Escolha o programa no menu suspenso.<br/>
+            6- Incluir Requerimento.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ REQUERIMENTO ^ MATRICULA ^ ACEITO ^</pattern>
+        <template>
+            1- Acesse o jupiter web.<br/>
+            2- Menu âAcesso Restritoâ.<br/>
+            3- Aba âRequerimentoâ.<br/>
+            4- OpÃ§Ã£o âRequerimento de matrÃ­culaâ.<br/>
+            5- Escolha o programa no menu suspenso.<br/>
+            6- Coluna âResultadoâ.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ CALENDARIO ^ AULAS ^</pattern>
+        <template>
+            Ã possÃ­vel acessar o calendÃ¡rio pelo link: http://www.prg.usp.br/calendario-academico/ <br/>
+            ou pelo JÃºpiter: <br/>
+            1- Acesse o JÃºpiter Web.
+            2- Menu âPÃºblicoâ.
+            3- Aba âCalendÃ¡rioâ.
+            4- Aba âAnoâ.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ PROFESSORES ^ MINISTRAM ^</pattern>
+        <template>
+            Os calouros devem verificar o material impresso no mural da secretaria da graduaÃ§Ã£o, no inÃ­cio das aulas. <br/>
+            A partir do segundo semestre, no perÃ­odo da matrÃ­cula online, Ã© possÃ­vel ver os professores que irÃ£o ministrar as aulas:<br/>
+            1- Acesse o JÃºpiter. <br/>
+            2- No menu "Acesso Restrito".<br/>
+            3- Aba "MatrÃ­cula". <br/>
+            4- Clicar na disciplina. <br/>
+            5- Clicar na aba "Turmas". <br/>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MATRICULA ^ SUCESSO ^</pattern>
+        <template>
+            Depois da Ãºltima interaÃ§Ã£o vc recebe a confirmaÃ§Ã£o no JÃºpiter: <br/>
+            1- Acessa o JÃºpiter.<br/>
+            2- Menu âRestritoâ.<br/>
+            3- Aba âmatriculaâ.<br/>
+            4- Aba âresultado das consolidaÃ§Ãµesâ.<br/>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ DISCIPLINAS ^ CURSADAS ^</pattern>
+        <template>
+            1- Acessa o JÃºpiter.<br/>
+            2- Menu ârestritoâ.<br/>
+            3- Aba âacompanhamentoâ.<br/>
+            4- Aba âevoluÃ§Ã£o no cursoâ.<br/>
+            5- Menu suspenso: programa.<br/>
+            6- âBuscarâ.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ FALTA ^ TERMINAR ^</pattern>
+        <template>
+            1- Acessar o JÃºpiter.<br/>
+            2- Menu âRestritoâ .<br/>
+            3- Aba âAcompanhamentoâ.<br/>
+            4- Aba âEvoluÃ§Ã£o no cursoâ.<br/>
+            5- Menu suspenso: programa.<br/>
+            6- âBuscarâ
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ INTERCAMBISTAS ^</pattern>
+        <template>
+            Ã possÃ­vel ajudar um intercambista da seguinte forma:
+            (Antes, caso vc n tenha, cadastre um telefone: Menu âRestritoâ > Aba âAcompanhamentosâ > Aba âDados pessoaisâ > Aba âAlterar telefoneâ ). <br/>
+            1- Acesse o JÃºpiter. <br/>
+            2- Menu âRestritoâ. <br/>
+            3- Aba âPrograma usp ifriendsâ. <br/>
+            4- AvanÃ§ar. <br/>
+            5- FaÃ§a o seu cadastro e espere pelo perÃ­odo de recepÃ§Ã£o dos intercambistas.<br/>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ VPN ^</pattern>
+        <template>
+            Ã possÃ­vel estabelecer uma conexÃ£o remota com as credenciais da USP, para isso
+            acesse http://www.sibi.usp.br/servicos/conexao-remota/ e siga os passos.
+        </template>
+    </category>
+</aiml>

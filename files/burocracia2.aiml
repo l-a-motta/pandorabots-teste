@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	
+<category>
+	<pattern># <set>cartao</set> #</pattern>
+	<template>
+	    Os cartÃµes USP devem ser solicitados pelo jÃºpiter durante as primeiras semanas do inÃ­cio do primeiro semestre. A data de sua entrega Ã© avisada atravÃ©s de um e-mail. Em caso de perda, outro cartÃ£o USP deve ser solicitado.
+    </template>
+</category>
+
+
+<category>
+	<pattern># <set>matricula</set> interativa #</pattern>
+	    <template>
+		    <button>
+		        <text>Clique aqui para ver um manual sobre a matrÃ­cula interativa no sistema JupiterWeb</text>
+                    <url>http://www.prg.usp.br/wp-content/uploads/Nova-matr%C3%ADcula-interativa_2017.pdf</url>
+            </button>
+        </template>
+</category>
+
+
+
+
+</aiml>

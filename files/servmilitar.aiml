@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	
+<category>
+	<pattern># <set>militar</set> # <set>matricula</set> #</pattern>
+	<template>NÃ£o hÃ¡ relaÃ§Ã£o entre serviÃ§o militar e matrÃ­cula na USP. SÃ£o processos geridos por instituiÃ§Ãµes diferentes.</template>
+</category>
+
+<category>
+	<pattern># <set>matricula</set> # <set>militar</set> #</pattern>
+	<template><srai># <set>militar</set> # matrÃ­cula #</srai></template>
+</category>
+
+	
+	
+</aiml>

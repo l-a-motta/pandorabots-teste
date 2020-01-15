@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>^ QUE ^ <set>jupiter</set> ^</pattern>
+        <template>
+            O JÃºpiter Web faz parte do conjunto de sistemas da USP e Ã© o mais utilizado pelxs alunxs.<br/>
+            No JÃºpiter vc tem acesso Ã :
+            <ul>
+                <li>grade horÃ¡ria</li>
+                <li>histÃ³rico escolar</li>
+                <li>documentos (inclusive o atestado de matrÃ­cula)</li>
+                <li>ajudar um intercambista (programa USP ifriends)</li>
+                <li>se informar sobre editais de bolsa</li>
+                <li>mudar a foto do seu cartÃ£o usp</li>
+                <li>entre outras coisas</li>
+            </ul>
+            <link><text>Link para acessar o JÃºpiter Web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link>
+            <link><text>Link para tutoriais</text><url>http://www.prg.usp.br/tutoriais-do-jupiterweb-em-video/</url></link>
+            <link><text>Link para FAQ do JÃºpiter</text><url>https://uspdigital.usp.br/jupiterweb/FAQ.jsp?codmnu=9326</url></link>
+            
+            
+        </template>
+    </category>
+    
+    <category>
+    <pattern>^ <set>entrar</set> ^ <set>jupiter</set> ^</pattern>
+    <template>
+        Para ter acesso ao JÃºpiter vc precisa:
+        <ul>
+            <li>Entre na aba âprimeiro acessoâ na coluna do lado esquerdo da tela</li>
+            <li>Preencha os campos</li>
+            <li></li>
+        </ul>
+        O usuÃ¡rio (seu nÃºmero usp) Ã© o seu nÃºmero de identificaÃ§Ã£o na usp, ele estarÃ¡ em um documento que Ã© entregue a vocÃª quando Ã© feita a matrÃ­cula.<br/>
+    </template>
+    </category>
+    
+    
+    <category>
+      <pattern>^ <set>alterar</set> ^ SENHA ^ <set>jupiter</set> ^</pattern>
+      <template>
+          Para alterar a senha do JÃºpiter:
+          <ul>
+              <link>Logue no <text>JÃºpiter Web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link>
+              <li>Clique em âentrarâ</li>
+              <li>UsuÃ¡rio (nusp) e senha unificada</li>
+              <li>Link  âAlterar Senhaâ</li>
+              <li>Siga as instruÃ§Ãµes</li>
+          </ul>
+      </template>
+    </category>
+      
+    <category>
+         <pattern>^ ATESTADO ^ <set>matricula</set> ^</pattern>
+         <template>
+             Para ter acesso ao atestado de matricula:
+             <ul>
+                 <li>Logue no <link><text>jÃºpiter web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                 <li>No menu âAcesso restritoâ, clique em âEmissÃ£o de Documentosâ</li>
+                 <li>Selecione seu curso e o documento a ser emitido</li>
+                 <li>Clique em âBuscarâ</li>
+             </ul>
+                Os documentos sÃ£o emitidos em formato pdf e possuem autenticaÃ§Ã£o eletrÃ´nica, dispensando carimbo e assinatura do ServiÃ§o de GraduaÃ§Ã£o.
+         </template>
+         
+    </category>
+
+    <category>
+        <pattern>^ HISTORICO ^</pattern>
+        <template>
+            Para ter acesso ao  histÃ³rico escolar:
+            <ul>
+                <li>Logue no <link><text>jÃºpiter web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                <li>Clicar em âHistÃ³rico Escolarâ no menu âÃrea restritaâ</li>
+                <li>Selecione âProgramaâ , âCursoâ e opÃ§Ã£o</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ HISTÃRICO ^</pattern>
+        <template>
+            Para ter acesso ao  histÃ³rico escolar:
+            <ul>
+                <li>Logue  no <link><text>jÃºpiter web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                <li>Clicar em âHistÃ³rico Escolarâ no menu âÃrea restritaâ</li>
+                <li>Selecione âProgramaâ , âCursoâ e opÃ§Ã£o</li>
+            </ul>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ EDITAL ^ INTERCAMBIO ^</pattern>
+        <template>
+            Os editais sÃ£o de responsabilidade da ComissÃ£o das RelaÃ§Ãµes Internacionais (CRInt) do ICMC/USP.<br/>
+            Eles atuam integrados com a ComissÃ£o de CooperaÃ§Ã£o Internacional - CCInt.<br/>
+            SÃ£o geridos no sistema Mundus <br/>
+            <ul>
+            <link>
+            <text>Acesse o sistema mundus (nÃ£o Ã© necessÃ¡rio logar)</text>
+                <url>https://uspdigital.usp.br/mundus/</url>
+            </link>
+            <li>Menu âPÃºblicoâ clique em "Editais"</li>
+            <li>Aba "Alunos de graduaÃ§Ã£o", aba "Editais"</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ EDITAL ^ INTERCÃMBIO ^</pattern>
+        <template>
+            Os editais sÃ£o de responsabilidade da ComissÃ£o das RelaÃ§Ãµes Internacionais (CRInt) do ICMC/USP.<br/>
+            Eles atuam integrados com a ComissÃ£o de CooperaÃ§Ã£o Internacional - CCInt.<br/>
+            SÃ£o geridos no sistema Mundus <br/>
+            <ul>
+            <link>
+            <text>Acesse o sistema mundus (nÃ£o Ã© necessÃ¡rio logar)</text>
+                <url>https://uspdigital.usp.br/mundus/</url>
+            </link>
+            <li>Menu âPÃºblicoâ clique em "Editais"</li>
+            <li>Aba "Alunos de graduaÃ§Ã£o", aba "Editais"</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ EDITAL ^ BOLSA ^</pattern>
+        <template>
+            Os alunos com dificuldades financeiras  podem procurar auxÃ­lio  de Bolsas do Programa de apoio Ã  permanÃªncia e formaÃ§Ã£o estudantil (o PAPFE)
+            Elas podem ser acessadas em:
+            <link><text>PAPFE</text><url>http://www.puspsc.usp.br/bolsas-e-auxilios/</url>
+            </link>
+            No site:
+            <ul>
+            <li>Acesse o site da puspsc</li>
+            <li>Menu âConsulteâ > âBolsas e AuxÃ­liosâ</li>
+            <li>Procurar o link do documento âInscriÃ§Ãµes : acesse o edital (ano atual)â</li>
+            </ul>
+            Outros tipos de auxÃ­lio:<br/>
+            <ul>
+            <li>Bolsa PUB</li>
+            <li>Bolsa Monitoria (vinculado ou nÃ£o ao             <link>
+                <text>PEEG</text>
+                <url>http://www.prg.usp.br/?page_id=399?codmnu=6762</url>
+            </link>)</li>
+            <li>Bolsa IC (Capes, Cnpq e Fapesp)</li>
+            </ul>
+
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ <set>segunda</set> ^ CARTAO USP ^</pattern>
+        <template>
+            Um novo cartÃ£o USP pode ser feito da seguinte forma:
+            <ul>
+            <li>Logue no <link><text>jÃºpiter web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+            <li>Menu âAcesso restritoâ</li>
+            <li>Aba âCartÃ£o USPâ</li>
+            <li>Nova SolicitaÃ§Ã£o</li>
+            <li>Escolha o motivo no menu suspenso</li>
+            <li>Salvar</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ A GRADE HORARIA ^</pattern>
+        <template>
+            Pode-se acessar a grade horÃ¡ria da seguinte forma:
+            <ul>
+                <li>Logue no  <link><text>jÃºpiter web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                <li>Menu âAcesso Restritoâ</li>
+                <li>Aba âGrade Horariaâ</li>
+                <li>Escolha o curso no menu suspenso</li>
+                <li>Buscar</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ A GRADE HORÃRIA ^</pattern>
+        <template>
+            Pode-se acessar a grade horÃ¡ria da seguinte forma:
+            <ul>
+                <li>Logue no  <link><text>jÃºpiter web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                <li>Menu âAcesso Restritoâ</li>
+                <li>Aba âGrade Horariaâ</li>
+                <li>Escolha o curso no menu suspenso</li>
+                <li>Buscar</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ VER ^ DISCIPLINAS ^</pattern>
+        <template>
+            Com o cÃ³digo da disciplina, Ã© possÃ­vel procurar em um buscador do JÃºpiter.<br/>
+            <ul>
+                <li>Acesse <link><text>jÃºpiter web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link> (NÃ£o precisa logar)</li>
+                <li>Menu âPÃºblicoâ</li>
+                <li>Aba de âBusca por disciplinaâ ou âBusca por turmaâ</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ PROCURAR ^ DISCIPLINAS ^</pattern>
+        <template>
+            Com o cÃ³digo da disciplina, Ã© possÃ­vel procurar em um buscador do JÃºpiter.<br/>
+            <ul>
+                <li>Acesse <link><text>jÃºpiter web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link> (NÃ£o precisa logar)</li>
+                <li>Menu âPÃºblicoâ</li>
+                <li>Aba de âBusca por disciplinaâ ou âBusca por turmaâ</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MONTAR ^ MATRICULA ^</pattern>
+        <template>
+            A matrÃ­cula dos calouros Ã© automÃ¡tica (mas pode ser, em alguns casos, mediante autorizaÃ§Ã£o, ser modificada).<br/>
+            A partir do segundo semestre, Ã© o prÃ³prio aluno deve montar a grade (Num perÃ­odo que serÃ¡ anunciado no email usp)<br/>
+            Quando abrir o perÃ­odo de matrÃ­cula, ela pode ser feita:
+            <ul>
+                <li>Logue no <link><text>jÃºpiter web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                <li>Menu âAcesso Restritoâ</li>
+                <li>Aba âMatrÃ­culaâ</li>
+                <li>Aba âFazer matrÃ­culaâ</li>
+                <li>Montar Grade da MatrÃ­cula</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MONTAR ^ MATRÃCULA ^</pattern>
+        <template>
+            A matrÃ­cula dos calouros Ã© automÃ¡tica (mas pode ser, em alguns casos, mediante autorizaÃ§Ã£o, ser modificada).<br/>
+            A partir do segundo semestre, Ã© o prÃ³prio aluno deve montar a grade (Num perÃ­odo que serÃ¡ anunciado no email usp)<br/>
+            Quando abrir o perÃ­odo de matrÃ­cula, ela pode ser feita:
+            <ul>
+                <li>Logue no <link><text>jÃºpiter web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link> com nusp e senha</li>
+                <li>Menu âAcesso Restritoâ</li>
+                <li>Aba âMatrÃ­culaâ</li>
+                <li>Aba âFazer matrÃ­culaâ</li>
+                <li>Montar Grade da MatrÃ­cula</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ REQUERIMENTO ^ MATRICULA ^</pattern>
+        <template>
+            HÃ¡ informaÃ§Ãµes nessa pÃ¡gina  
+            <link>
+                <text>Requerimento</text>
+                <url>http://www.prg.usp.br/alunos-2/jupiter-web-em-videos/requerimento-de-matricula-online/</url>
+            </link><br/>
+            No perÃ­odo de requerimento: <br/>
+            <ul>
+                <li>Logue no <link><text>jÃºpiter web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link> com nusp e senha</li>
+                <li>Menu âAcesso Restritoâ</li>
+                <li>Aba âRequerimentoâ</li>
+                <li>OpÃ§Ã£o âRequerimento de matrÃ­culaâ</li>
+                <li>Escolha o programa no menu suspenso</li>
+                <li>Incluir Requerimento</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ REQUERIMENTO ^ MATRÃCULA ^</pattern>
+        <template>
+            HÃ¡ informaÃ§Ãµes nessa pÃ¡gina  
+            <link>
+                <text>Requerimento</text>
+                <url>http://www.prg.usp.br/alunos-2/jupiter-web-em-videos/requerimento-de-matricula-online/</url>
+            </link><br/>
+            No perÃ­odo de requerimento: <br/>
+            <ul>
+                <li>Logue no <link><text>jÃºpiter web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                <li>Menu âAcesso Restritoâ</li>
+                <li>Aba âRequerimentoâ</li>
+                <li>OpÃ§Ã£o âRequerimento de matrÃ­culaâ</li>
+                <li>Escolha o programa no menu suspenso</li>
+                <li>Incluir Requerimento</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ REQUERIMENTO ^ MATRICULA ^ ACEITO ^</pattern>
+        <template>
+            Para saber se o requerimento de matrÃ­cula foi aceito: <br/>
+            <ul>
+                <li>Logue no <link><text>jÃºpiter web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                <li>Menu âAcesso Restritoâ</li>
+                <li>Aba âRequerimentoâ</li>
+                <li>OpÃ§Ã£o âRequerimento de matrÃ­culaâ</li>
+                <li>Escolha o programa no menu suspenso</li>
+                <li>Coluna âResultadoâ</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ REQUERIMENTO ^ MATRÃCULA ^ ACEITO ^</pattern>
+        <template>
+            Para saber se o requerimento de matrÃ­cula foi aceito: <br/>
+            <ul>
+                <li>Logue no <link><text>jÃºpiter web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                <li>Menu âAcesso Restritoâ</li>
+                <li>Aba âRequerimentoâ</li>
+                <li>OpÃ§Ã£o âRequerimento de matrÃ­culaâ</li>
+                <li>Escolha o programa no menu suspenso</li>
+                <li>Coluna âResultadoâ</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ CALENDARIO ^ AULAS ^</pattern>
+        <template>
+            Acesse o calendÃ¡rio pelo link
+            <link>
+                <text>CalendÃ¡rio</text>
+                <url>http://www.prg.usp.br/calendario-academico/</url>
+            </link> ou pelo JÃºpiter:
+                <ul>
+                    <li>Logue no <link><text>JÃºpiter</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                    <li>Menu âPÃºblicoâ</li>
+                    <li>Aba âCalendÃ¡rioâ</li>
+                    <li>Aba âAnoâ</li>
+                </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ CALENDÃRIO ^ AULAS ^</pattern>
+        <template>
+            Acesse o calendÃ¡rio pelo link
+            <link>
+                <text>CalendÃ¡rio</text>
+                <url>http://www.prg.usp.br/calendario-academico/</url>
+            </link> ou pelo JÃºpiter:
+                <ul>
+                    <li>Logue no <link><text>JÃºpiter</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                    <li>Menu âPÃºblicoâ</li>
+                    <li>Aba âCalendÃ¡rioâ</li>
+                    <li>Aba âAnoâ</li>
+                </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ PROFESSORES ^ AULAS ^</pattern>
+        <template>
+            Os calouros devem verificar o material impresso no mural da secretaria da graduaÃ§Ã£o, no inÃ­cio das aulas. <br/>
+            A partir do segundo semestre, no perÃ­odo da matrÃ­cula online, Ã© possÃ­vel ver os professores que irÃ£o ministrar as aulas por 
+            <link>
+                <text>HorÃ¡rio</text><url>https://www.icmc.usp.br/graduacao/informacoes-gerais-e-servicos/horarios-de-aulas</url>
+            </link>ou pelo <link><text>jÃºpiter web</text><url>https://uspdigital.usp.br/jupiterweb/</url></link><br/>
+            Pelo JÃºpiter:
+            <ul>
+                <li>Logue no JÃºpiter</li>
+                <li>No menu "Acesso Restrito"</li>
+                <li>Aba "MatrÃ­cula"</li>
+                <li>Clicar na disciplina</li>
+                <li>Clicar na aba "Turmas"</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MATRICULA ^ SUCESSO ^</pattern>
+        <template>
+            Vc recebe, depois da Ãºltima interaÃ§Ã£o, a confirmaÃ§Ã£o no jÃºpiter:
+            <ul>
+                <li>Logue no <link><text>jÃºpiter</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                <li>Menu âRestritoâ</li>
+                <li>Aba âmatriculaâ</li>
+                <li>Aba âresultado das consolidaÃ§Ãµesâ</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MATRÃCULA ^ SUCESSO ^</pattern>
+        <template>
+            Vc recebe, depois da Ãºltima interaÃ§Ã£o, a confirmaÃ§Ã£o no jÃºpiter:
+            <ul>
+                <li>Logue no <link><text>jÃºpiter</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                <li>Menu âRestritoâ</li>
+                <li>Aba âmatriculaâ</li>
+                <li>Aba âresultado das consolidaÃ§Ãµesâ</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ DISCIPLINAS ^ CURSADAS ^</pattern>
+        <template>
+            Para saber quais disciplinas a serem cursadas:<br/>
+            <ul>
+                <li>Logue no <link><text>jÃºpiter</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                <li>Menu âRestritoâ</li>
+                <li>Aba âAcompanhamentoâ</li>
+                <li>Aba âEvoluÃ§Ã£o no cursoâ</li>
+                <li>Menu suspenso: Programa</li>
+                <li>âBuscarâ</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ FALTA ^ TERMINAR ^</pattern>
+        <template>
+            Para saber quanto falta para terminar o curso:<br/>
+            <ul>
+                <li>Logue no <link><text>jÃºpiter</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                <li>Menu âRestritoâ</li>
+                <li>Aba âAcompanhamentoâ</li>
+                <li>Aba âEvoluÃ§Ã£o no cursoâ</li>
+                <li>Menu suspenso: Programa</li>
+                <li>âBuscarâ</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ INTERCAMBISTAS ^</pattern>
+        <template>
+            Ã possÃ­vel ajudar um intercambista da seguinte forma: <br/>
+            (Antes, caso vc nÃ£o tenha, cadastre um telefone: Menu âRestritoâ > Aba âAcompanhamentosâ > Aba âDados pessoaisâ > Aba âAlterar telefoneâ ). <br/>
+            <ul>
+                <li>Logue no <link><text>jÃºpiter</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+                <li>Menu âRestritoâ</li>
+                <li>Aba âPrograma usp ifriendsâ</li>
+                <li>AvanÃ§ar</li>
+                <li>FaÃ§a o seu cadastro e espere pelo perÃ­odo de recepÃ§Ã£o dos intercambistas para escolher qual que vc se dispÃµe a ajudar</li>
+            </ul>
+        </template>
+    </category>
+    
+<category>
+    <pattern>^ FOTO ^</pattern>
+    <template>
+        A foto pode ser modificada:
+        <ul>
+            <li>Logue no <link><text>jÃºpiter</text><url>https://uspdigital.usp.br/jupiterweb/</url></link></li>
+            <li>Menu "Restrito", aba "CartÃ£o usp"</li>
+            <li>"Incluir/Alterar foto</li>
+        </ul>
+    </template>
+</category>
+
+</aiml>

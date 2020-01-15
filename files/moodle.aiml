@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    
+<!-- MOODLE - INÃCIO -->	
+
+
+<!-- MOODLE -  Perguntas especÃ­ficas do sistema moodle -->
+
+    <category>
+        <pattern>_ moodle *</pattern>
+        <template><srai> <star index="2"/> moodle </srai></template>
+    </category>
+    
+
+<!-- MOODLE -  Resposta padrÃ£o para pergunta nÃ£o identificada que contenha o termo "moodle"  -->
+
+<category>
+    <pattern> ^  moodle ^ </pattern>
+    <template> 
+            Hummm nÃ£o consegui relacionar sua pergunta com alguma resposta que eu tenha aqui... <br/>
+            Tente reformular ou especificar mais sua pergunta, ou entÃ£o veja se consegue encontrar sua resposta nesta 
+            <link>
+                <text>DocumentaÃ§Ã£o do moodle</text>
+                <url>https://docs.atp.usp.br/</url>
+            </link> 
+            ou neste 
+            <link>
+                <text>Guia de uso do moodle</text>
+                <url>https://edisciplinas.usp.br/mod/page/view.php?id=6</url>
+            </link>
+    </template>
+</category>
+
+<!-- MOODLE -  O que Ã© moodle - INÃCIO -->
+<!-- NÃ£o se desespere se o conteÃºdo da disciplina que vocÃª procura nÃ£o estiver no moodle, descubra primeiro se foi essa a plataforma pela qual seu professor optou <br/> -->
+
+	<category>
+	    <pattern> # que # moodle #</pattern>
+	    <template>  O sistema e-Disciplinas, ou Moodle da USP, Ã© um ambiente virtual de aprendizagem de apoio Ã s disciplinas da USP. <br/>
+	                Os professores podem optar pelo Moodle para colocar atividades, conteÃºdos e notas ou optar por outras plataformas <br/>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern> # que # moodle # oferece # </pattern>
+        <template> <srai> # que # moodle # </srai></template>
+    </category>
+    
+   <category>
+        <pattern> ^ moodle ^ serve ^ </pattern>
+        <template> <srai> ^ que * moodle ^ </srai></template>
+    </category>
+    
+     <category>
+        <pattern> ^ funciona ^ moodle ^ </pattern>
+        <template> <srai> ^ que * moodle ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ funÃ§Ã£o ^ moodle ^ </pattern>
+        <template> <srai> ^ que * moodle ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ funcao ^ moodle ^ </pattern>
+        <template> <srai> ^ que * moodle ^ </srai></template>
+    </category>
+    
+<!-- MOODLE -  O que Ã© moodle - FIM -->
+    
+<!-- MOODLE - Acesso ao moodle - variaÃ§Ãµes - INÃCIO --> 
+    
+    <category>
+        <pattern> # como # <set>entrar</set> # moodle # </pattern>
+        <template> Ã fÃ¡cil! SÃ³ entrar no site, 
+            <link>
+                <text>clicando aqui</text>
+                <url>https://edisciplinas.usp.br/acessar/</url>
+            </link>
+                    e inserir seu usuÃ¡rio e senha <br/>
+                    seu usuÃ¡rio Ã© seu nÃºmero usp <br/>
+                    e a senha Ã© a sua senha Ãºnica, criada por vocÃª ( a mesma do jupiterweb)
+        </template>
+    </category>
+    
+  
+<!-- MOODLE - Acesso ao moodle - variaÃ§Ãµes - FIM --> 
+
+<!-- MOODLE - Primeiro acesso -->
+
+<category>
+    <pattern>^ primeiro ^ moodle ^</pattern>
+    <template>
+        Caso seja seu primeiro acesso ao moodle, tente seguir este guia:
+        <link>
+            <text>Guia de uso do Moodle</text>
+            <url>https://edisciplinas.usp.br/mod/page/view.php?id=6</url>
+        </link>
+    </template>
+</category>
+
+<category>
+    <pattern>^ primeira ^ moodle ^</pattern>
+    <template>
+        <srai> ^ primeiro ^ moodle ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ guia ^ moodle ^</pattern>
+    <template>
+        <srai> ^ primeiro ^ moodle ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ tutorial ^ moodle ^</pattern>
+    <template>
+        <srai> ^ primeiro ^ moodle ^</srai>
+    </template>
+</category>
+
+
+
+<!-- MOODLE -Alterar senha do moodle - variaÃ§Ãµes - INÃCIO --> 
+
+    <category>
+        <that> ^ moodle ^</that>
+        <pattern> ^ como ^ alterar ^ senha ^</pattern>
+        <template> 
+                O moodle utiliza a senha unificada dos sistemas usp e nÃ£o Ã© possÃ­vel alterÃ¡-la sem alterar as demais. <br/>
+                Mas se vocÃª deseja alterar sua senha unificada ( a do jupiterweb), 
+            <link>
+                <text>clique aqui</text>
+                <url>https://uspdigital.usp.br/wsusuario/</url>
+            </link>
+                e clique em "Alterar senha"</template>
+    </category>
+ 
+     <category>
+        <that> ^ moodle ^</that>
+        <pattern> ^ como ^ altero ^ senha ^</pattern>
+        <template> <srai> ^ como ^ alterar ^ senha ^</srai> </template>
+    </category>
+ 
+   <category>
+        <that> ^ moodle ^</that>
+        <pattern> ^ como mudar ^ senha ^</pattern>
+        <template> <srai> ^ como ^ alterar ^ senha ^</srai> </template>
+    </category>
+    
+  <category>
+        <that> ^ moodle ^</that>
+        <pattern> ^ como mudo ^ senha ^</pattern>
+        <template> <srai> ^ como ^ alterar ^ senha ^</srai> </template>
+    </category>
+    
+  <category>
+        <that> ^ moodle ^</that>
+        <pattern> ^ como trocar ^ senha ^</pattern>
+        <template> <srai> ^ como ^ alterar ^ senha ^</srai> </template>
+    </category>
+    
+  <category>
+        <that> ^ moodle ^</that>
+        <pattern> ^ como troco ^ senha ^</pattern>
+        <template> <srai> ^ como ^ alterar ^ senha ^</srai> </template>
+    </category>
+    
+  <category>
+        <that> ^ moodle ^</that>
+        <pattern> ^ como atualizar ^ senha ^</pattern>
+        <template> <srai> ^ como ^ alterar ^ senha ^</srai> </template>
+    </category>
+
+  <category>
+        <that> ^ moodle ^</that>
+        <pattern> ^ como atualizo ^ senha ^</pattern>
+        <template> <srai> ^ como ^ alterar ^ senha ^</srai> </template>
+    </category>
+    
+<!-- MOODLE - Alterar senha do moodle - variaÃ§Ãµes - FIM -->
+
+<!-- MOODLE - Disciplinas - INÃCIO -->
+
+    <category>
+        <pattern> ^ encontrar ^ disciplinas ^ </pattern>
+        <template>
+            Para localizar suas disciplinas, basta clicar no botÃ£o "InÃ­cio", ao lado do Ã­cone de casinha, na segunda barra do topo. <br/>
+            O clique te redirecionarÃ¡ Ã  pÃ¡gina com as suas disciplinas.
+        </template>
+    </category>
+
+    <category>
+        <pattern> ^ minhas ^ disciplinas ^ </pattern>
+        <template>
+            <srai> ^ encontrar ^ disciplinas ^ </srai>
+        </template>
+    </category>
+
+<!-- MOODLE - InscriÃ§Ã£o em disciplinas - variaÃ§Ãµes -->
+
+    <category>
+        <pattern> ^ inscrever ^ disciplina ^ moodle ^ </pattern>
+        <template> No moodle, os docentes sÃ£o responsÃ¡veis por inscrever os alunos nas disciplinas. <br/>
+                    Caso vocÃª nÃ£o encontre a disciplina que procura na aba "Minhas disciplinas", provavelmente sua inscriÃ§Ã£o nÃ£o foi concluÃ­da com sucesso, fale com o seu professor ou professora para que ele ou ela possa corrigir o problema 
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ inscrito ^ disciplina ^ moodle ^ </pattern>
+        <template> <srai> ^ inscrever ^ disciplina ^ moodle ^ </srai> </template>
+    </category>
+    
+    <category>
+        <pattern> ^ inscrita ^ disciplina ^ moodle ^ </pattern>
+        <template> <srai> ^ inscrever ^ disciplina ^ moodle ^ </srai> </template>
+    </category>
+    
+<!-- MOODLE -  Cancelar disciplinas -->
+
+    <category>
+        <pattern> ^ cancelar ^ disciplina ^ moodle ^</pattern>
+        <template> Para cancelar alguma disciplina no moodle, acesse-a e procure pela opÃ§Ã£o "AdministraÃ§Ã£o" na barra lateral esquerda</template>
+    </category>
+    
+<!-- MOODLE - Como saber se o moodle Ã© o site certo para tal disciplina -->
+    
+    <category>
+        <pattern> ^ como ^ saber ^ se ^ moodle ^ </pattern>
+        <template> As plataformas online de auxÃ­lio sÃ£o de escolha do docente, para saber se determinada disciplina consta no moodle, pergunte ao professor ou professora </template>
+    </category>
+
+<!-- MOODLE -  Acesso a disciplinas de anos anteriores -->
+
+    <category>
+        <pattern> ^ disciplinas ^ anos ^ anteriores ^ moodle ^</pattern>
+        <template> Suas disciplinas de anos anteriores estÃ£o na aba "Anos anteriores" na pÃ¡gina de InÃ­cio <br/></template>
+    </category>
+    
+<!-- MOODLE - Notas -->
+    
+    <category>
+        <pattern> ^ notas ^ moodle ^ </pattern>
+        <template> 
+            Para que suas notas sejam disponibilizadas no moodle, Ã© preciso que o professor ou professora opte por colocÃ¡-las. <br/>
+            HÃ¡ vÃ¡rias formas de incluir notas no moodle, listarei algumas: <delay>2</delay>
+            <ul>
+                <li>Um arquivo com as notas na seÃ§Ã£o da disciplina, junto com os demais materiais</li>
+                <li>Na seÃ§Ã£o "Status de envio" da tarefa enviada (para o caso de algum trabalho, exercÃ­cio ou teste online)</li>
+                <li>Na barra lateral esquerda, nos quadrados coloridos, na seÃ§Ã£o "Quadro de notas"</li>
+                <li>No menu do usuÃ¡rio, sob o seu nome, no canto superior direito, na seÃ§Ã£o "Notas"</li>
+            </ul>
+        </template>
+    </category>
+    
+<!-- MOODLE - Atividades -->
+    
+    <category>
+        <pattern> ^ atividades ^ moodle ^ </pattern>
+        <template> 
+            Para que haja atividades disponÃ­veis no moodle, Ã© preciso que o professor ou professora opte por colocÃ¡-las. <br/>
+            Dentro da aba da disciplina, haverÃ¡ uma lista com todo o material que o professor disponibilizou <br/> <delay>2</delay>
+            No botÃ£o correspondente Ã  atividade desejada, serÃ¡ possÃ­vel anexar arquivos, desde que dentro do prazo estabelecido pelo docente. <br/> <delay>2</delay>
+            Ã possÃ­vel buscar arquivos de seu computador, da nuvem, do prÃ³prio moodle... <br/>
+            NÃ£o se esqueÃ§a de clicar em "Salvar mudanÃ§as" e depois em "Enviar" para que o arquivo seja mandado ao professor.
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ editar ^ atividade ^ moodle ^</pattern>
+        <template>
+            Ã possÃ­vel editar o envio da atividade, caso essa opÃ§Ã£o esteja disponÃ­vel.
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ outras ^ disciplinas ^ moodle ^</pattern>
+        <template> O moodle mostra todas as disciplinas dentro da usp que o utilizam. <br/>
+            Contudo, vocÃª provavelmente sÃ³ terÃ¡ acesso ao material das suas disciplinas. <br/>
+            Para procurar por outras disciplinas dentro da usp, basta acessar a opÃ§Ã£o "Disciplinas" na barra do topo e escolher a opÃ§Ã£o adequada.
+        </template>
+    </category>
+
+<!-- MOODLE - Disciplinas - Fim -->
+
+<!-- MOODLE - Perdido -->
+
+    <category>
+        <pattern> ^ perdi ^ moodle ^</pattern>
+        <template> 
+            Caso vocÃª tenha se perdido no moodle, tente clicar em "InÃ­cio" <br/>
+            Este botÃ£o deve te redirecionar para a pÃ¡gina com as suas disciplinas atuais
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ perdido ^ moodle ^</pattern>
+        <template> <srai>^ perdi ^ moodle ^</srai> </template>
+    </category>
+
+    <category>
+        <pattern> ^ perdida ^ moodle ^</pattern>
+        <template> <srai>^ perdi ^ moodle ^</srai> </template>
+    </category>
+    
+<!-- MOODLE - Perfil -->
+  
+    <category>
+        <pattern>^ alterar ^ perfil ^ moodle ^</pattern>
+        <template>
+            Se deseja alterar alguma informaÃ§Ã£o do seu perfil, no canto superior direito, clique no seu nome (que representa o Menu do UsuÃ¡rio) e procure a opÃ§Ã£o "Modificar Perfil" <br/>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ modificar ^ perfil ^ moodle ^</pattern>
+        <template>
+            <srai>^ alterar ^ perfil ^ moodle ^</srai>
+        </template>
+    </category>    
+    
+    <category>
+        <pattern> ^ perfil ^ moodle ^</pattern>
+        <template> 
+            Para acessar algumas informaÃ§Ãµes pessoais suas de uso do moodle, no canto superior direito, <br/>
+            clique no seu nome (que representa o Menu do UsuÃ¡rio) e procure a opÃ§Ã£o "Perfil"
+        </template>
+    </category>
+    
+    
+<!-- MOODLE - Deslogar -->
+
+    <category>
+        <pattern> ^ sair ^ moodle ^</pattern>
+        <template> 
+            Para sair da sua conta no moodle, basta clicar em seu nome e procurar a opÃ§Ã£o "Sair"
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ deslogar ^ moodle ^</pattern>
+        <template> 
+            Para sair da sua conta no moodle, basta clicar em seu nome e procurar a opÃ§Ã£o "Sair"
+        </template>
+    </category>
+
+<!-- MOODLE - AparÃªncia -->
+
+    <category>
+        <pattern> ^ aparÃªncia ^ moodle ^</pattern>
+        <template> 
+            Se deseja mudar a aparÃªncia do seu moodle, siga estas instruÃ§Ãµes:
+            <ul>
+                <li>Clique em seu nome no canto superior direito</li>
+                <li>Clique em Modificar Perfil</li>
+                <li>Procure a opÃ§Ã£o "Tema preferido" e altere-a</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ aparencia ^ moodle ^</pattern>
+        <template> 
+            <srai> ^ aparÃªncia ^ moodle ^</srai>
+        </template>
+    </category>
+    
+<!-- MOODLE - Suporte -->
+
+<category>
+    <pattern> ^ ajuda ^ moodle ^</pattern>
+    <template>
+            Na barra do topo, o moodle possui uma aba de suporte, que contÃ©m um guia de uso, documentaÃ§Ã£o, vÃ­deos de apoio para ferramentas usadas por professores, FAQ e mais... <br/>
+            Algumas ferramentas estÃ£o disponÃ­veis tambÃ©m para usuÃ¡rios que nÃ£o estejam logados. Tente <br/>
+         <link>
+             <text>DocumentaÃ§Ã£o do moodle</text>
+             <url>https://docs.atp.usp.br/</url>
+        </link> 
+            ou 
+        <link>
+                <text>Guia de uso do Moodle</text>
+                <url>https://edisciplinas.usp.br/mod/page/view.php?id=6</url>
+        </link>
+    </template>
+</category>
+    
+<category>
+    <pattern>^ suporte ^ moodle ^</pattern>
+    <template><srai>^ moodle ^ ajuda ^</srai></template>
+</category>
+
+<category>
+    <pattern>^ contato ^ moodle ^</pattern>
+    <template>
+        Caso alÃ©m das ajudas dos guias de uso e demais materiais, seja necessÃ¡rio o contato com algum especialista, a seÃ§Ã£o "Help Desk e Contato" possui as informaÃ§Ãµes necessÃ¡rias. <br/>
+        Para acessÃ¡-la, no menu lateral esquerdo, nos quadrados coloridos, clique no quadrado verde com o ponto de interrogaÃ§Ã£o, ou na barra do topo, em suporte, hÃ¡ a opÃ§Ã£o "Help Desk e Contato".
+    </template>
+</category>
+
+<!-- MOODLE - Pesquisar - variaÃ§Ãµes - INÃCIO -->
+
+<category>
+    <pattern> ^ pesquisar ^ moodle ^</pattern>
+    <template>
+        Na barra do topo do moodle, hÃ¡ a figura de uma lupa, basta clicar nela para abrir uma barra de pesquisa em todo o site
+    </template>
+</category>
+
+<category>
+    <pattern>^ buscar ^ moodle ^</pattern>
+    <template>
+        <srai> ^ pesquisar ^ moodle ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ pesquisa ^ moodle ^</pattern>
+    <template>
+        <srai> ^ pesquisar ^ moodle ^</srai>
+    </template>
+</category>
+
+<!-- MOODLE - Pesquisar - variaÃ§Ãµes - FIM -->
+
+<!-- MOODLE - Mensagens -->
+
+<category>
+    <pattern> ^ mensagens ^ moodle ^</pattern>
+    <template> 
+        Para visualizar suas mensagens no moodle, procure o Ã­cone de balÃ£ozinho na barra do topo ou na barra lateral esquerda, dentro dos quatro quadradinhos coloridos, no Ã­cone de envelope
+    </template>
+</category>
+
+<category>
+    <pattern>^ notificaÃ§Ãµes ^ moodle ^</pattern>
+    <template>
+        Para visualizar suas notificaÃ§Ãµes no moodle, basta clicar no Ã­cone de sino na barra do topo.
+    </template>
+</category>
+
+<category>
+    <pattern>^ notificacoes ^ moodle ^</pattern>
+    <template>
+        <srai>^ notificaÃ§Ãµes ^ moodle ^</srai>
+    </template>
+</category>
+
+<!-- MOODLE - Painel -->
+
+<category>
+    <pattern>^ painel ^ moodle ^ </pattern>
+    <template>
+        No moodle, o painel Ã© uma Ã¡rea com vÃ¡rios recursos que facilitam sua visualizaÃ§Ã£o de todos os cursos, incluindo uma linha do tempo com suas atividades mais prÃ³ximas e uma lista de itens acessados mais recentemente. <br/>
+    Para acessÃ¡-lo, clique em seu nome, e escolha a opÃ§Ã£o "Painel".
+    </template>
+</category>
+
+<!-- MOODLE - CalendÃ¡rio -->
+
+<category>
+    <pattern>^ calendÃ¡rio ^ moodle ^ </pattern>
+    <template>
+        A ferramenta calendÃ¡rio oferece um calendÃ¡rio com todas as suas entregas e demais eventos marcados pelos professores em todas as disciplinas, e permite que vocÃª marque seus proÃ³prios eventos. <br/>
+        Para acessÃ¡-lo, basta procurar no topo da barra lateral esquerda, pelo quadrado laranja ou mais para baixo pelo Ã­cone em formato de folha sulfite, a opÃ§Ã£o "CalendÃ¡rio"
+    </template>
+</category>
+
+<category>
+    <pattern>^ calendario ^ moodle ^ </pattern>
+    <template>
+        A ferramenta calendÃ¡rio oferece um calendÃ¡rio com todas as suas entregas e demais eventos marcados pelos professores em todas as disciplinas, e permite que vocÃª marque seus proÃ³prios eventos. <br/>
+        Para acessÃ¡-lo, basta procurar na barra lateral esquerda, no Ã­cone em formato de folha sulfite, pela opÃ§Ã£o "CalendÃ¡rio"
+    </template>
+</category>
+
+<!-- MOODLE - PreferÃªncias -->
+
+<category>
+    <pattern>^ personalizar ^ moodle ^</pattern>
+    <template>
+        No moodle, Ã© possÃ­vel personalizar diversos recursos. <br/>
+        Primeiro clique no seu nome, na barra do topo, em seguida procure: <br/>
+        <ul>
+            <li>Para personalizar suas notificaÃ§Ãµes, "Configurar notificaÃ§Ãµes"</li>
+            <li>Para personalizar a aparÃªncia da plataforma, "Modificar perfil"</li>
+            <li>Para mais opÃ§Ãµes, "PreferÃªncias"</li>
+        </ul>
+    </template>
+</category>
+
+<category>
+    <pattern>^ preferencias ^ moodle ^</pattern>
+    <template><srai>^ personalizar ^ moodle ^</srai></template>
+</category>
+
+<category>
+    <pattern>^ preferÃªncias ^ moodle ^</pattern>
+    <template><srai>^ personalizar ^ moodle ^</srai></template>
+</category>
+
+<category>
+    <pattern>^ idioma ^ moodle ^</pattern>
+    <template>
+        No moodle, Ã© possÃ­vel configurar o idioma do ambiente entre alemÃ£o, espanhol, francÃªs, inglÃªs e portuguÃªs. <br/>
+        Para alterÃ¡-lo, basta encontrar a opÃ§Ã£o "Idioma" na barra do topo.
+    </template>
+</category>
+
+<!-- MOODLE - Arquivos Privados -->
+
+<category>
+    <pattern>^ arquivos ^ privados ^ moodle ^</pattern>
+    <template> 
+        No moodle, hÃ¡ um ambiente para o armazenamento de arquivos do usuÃ¡rio. <br/>
+        Basta procurar no topo da barra lateral esquerda, nos quadrados coloridos, pelo Ã­cone de folha sulfite em vermelho. <br/>
+        Em seguida, Ã© sÃ³ anexar os arquivos desejados, que depois poderÃ£o ser acessados pelo usuÃ¡rio por outras ferramentas da plataforma, como na entrega um exercÃ­cio. 
+    </template>
+</category>
+
+<category>
+    <pattern>^ arquivo ^ privado ^ moodle ^</pattern>
+    <template><srai>^ arquivos ^ privados ^ moodle ^</srai></template>
+</category>
+
+<!--MOODLE - FIM -->
+    
+</aiml>

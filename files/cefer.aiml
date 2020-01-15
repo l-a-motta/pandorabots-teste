@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- InformaÃ§Ãµes sobre cefer do Campus -->
+	
+	<category>
+	    <pattern># esporte #</pattern>
+	    <template>
+	        O Centro de EducaÃ§Ã£o FÃ­sica, Esportes e RecreaÃ§Ã£o da USP-SÃ£o Carlos (CEFER) Ã© o espaÃ§o esportivo do campus. Localizado entre o centro e o sul da USP Campus 1, o CEFER oferece quadras poliesportivas, campos de areia, ginÃ¡sio, piscina e Ã¡reas para atividades diversas. O controle Ã© feito por uma catraca na qual Ã© liberada pela carteirinha, ou seja, todos os alunos tÃªm acesso.
+        </template>
+    </category>
+
+    <category>
+	    <pattern># esportes #</pattern>
+	    <template><srai>esporte</srai></template>
+    </category>
+    
+    <category>
+        <pattern># horario # cefer #</pattern>
+        <template>
+            HorÃ¡rio de funcionamento do CEFER: Segunda a sexta das 8h Ã s 21h45; SÃ¡bados e Domingos das 9h Ã s 17h45. <br/>
+            Piscina liberada para uso geral: 2Âª, 3Âª, 5Âª e 6Âª das 8h Ã s 21h; 4Âª das 11h Ã s 21h. <br/>
+            Secretaria CEFER: Segunda a Sexta das 10h Ã s 12h e das 14h Ã s 16h. 
+        </template>
+    </category>
+    
+    <category>
+        <pattern># esporte # horario #</pattern>
+        <template><srai>horario cefer</srai></template>
+    </category>
+    
+    <category>
+        <pattern># horario # esporte #</pattern>
+        <template><srai>horario cefer</srai></template>
+    </category>
+    
+    <category>
+        <pattern>como usar # <set>esporteesp</set></pattern>
+        <template>
+            Qualquer um pode solicitar quadras ou utilizaÃ§Ã£o de espaÃ§os no CEFER. Para tanto, Ã© necessÃ¡rio procurar a responsÃ¡vel Gizele na Secretaria do CEFER. Para mais informaÃ§Ãµes, ela terÃ¡ os horÃ¡rios disponÃ­veis bem como bolas e outros equipamentos para disponibilizar, caso necessÃ¡rio. Para alugar a quadra, nenhum valor Ã© cobrado, mas apresentaÃ§Ã£o da carteirinha se faz necessÃ¡ria.
+        </template>
+    </category>
+    
+    <category>
+        <pattern># equipes # competir #</pattern>
+        <template>
+            As modalidades voltadas para competiÃ§Ã£o que tem equipes de treino do CAASO:<br/>
+            1. Atletismo masc/fem <br/>
+            2. Basquete masc/fem <br/>
+            3. Beisebol masc <br/>
+            4. Cheerleading misto <br/>
+            5. E-sports (Fifa, LoL, Hearthstone, CS, Clash Royale) <br/>
+            6. Flag (futebol americano) masc/fem <br/>
+            7. Futsal masc/fem <br/>
+            8. Futebol de campo masc <br/>
+            9. Handebol masc/fem <br/>
+            10. Jiu-jitsu masc/fem <br/>
+            11. JudÃ´ masc/fem <br/>
+            12. KaratÃª masc/fem <br/>
+            13. NataÃ§Ã£o masc/fem <br/>
+            14. PÃ³lo aquÃ¡tico misto <br/>
+            15. Rugby masc/fem <br/>
+            16. Softbol fem <br/>
+            17. Taekwondo masc/fem <br/>
+            18. TÃªnis masc/tem <br/>
+            19. TÃªnis de mesa masc/fem <br/>
+            20. Volei masc/fem <br/>
+            21. VÃ´lei de areia masc/fem <br/>
+            22. Xadrez absoluto <br/>
+            23. Bateria (gaperia) <br/>
+            Os horÃ¡rios de treinos ainda serÃ£o definidos. Caso tenha interesse, procurar alguÃ©m que pratique o esporte ou entrar em contato na AtlÃ©tica CAASO, ao lado no Restaurante UniversitÃ¡rio, para mais informaÃ§Ãµes.
+        </template>
+    </category>
+    
+    <category>
+        <pattern># equipes #</pattern>
+        <template><srai>equipes competir</srai></template>
+    </category>
+    
+    <category>
+        <pattern># <set>esportes</set> #</pattern>
+        <template><srai>equipes competir</srai></template>
+    </category>
+    
+    <category>
+        <pattern># times #</pattern>
+        <template><srai>equipes competir</srai></template>
+    </category>
+    
+    <category>
+        <pattern># campeonatos #</pattern>
+        <template>
+            Os jogos universitÃ¡rios sÃ£o um dos principais eventos esportivos presentes dentro da universidade. Com destaque para o InterUSP, CaipirUSP e TUSCA, os eventos reÃºnem diversas atlÃ©ticas de diversas universidades. Fora isso, cada modalidade Ã© livre para participar de ligas e campeonatos a parte, tendo, muitas vezes, auxÃ­lio pela AtlÃ©tica CAASO. <br/>
+            Sobre as equipes de treinamento, isso fica a questÃ£o da modalidade. Algumas fazem seleÃ§Ã£o/escalaÃ§Ã£o na hora de competir, mas ninguÃ©m Ã© obrigado a isso, diversas pessoas treinam sem competir, tendo em vista que o esporte universitÃ¡rio tem fim de beneficiar e distrair uma rotina que Ã© bastante pesada no decorrer dos dias.
+        </template>
+    </category>
+    
+    <category>
+        <pattern># competiÃ§Ãµes #</pattern>
+        <template><srai>campeonatos</srai></template>
+    </category>
+    
+    <category>
+        <pattern># competiÃ§oes #</pattern>
+        <template><srai>campeonatos</srai></template>
+    </category>
+</aiml>

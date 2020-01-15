@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml>
+
+<category>
+    <pattern># <set>padrao</set> # <set>bandejao</set> #</pattern>
+    <template>
+        O bandejao fica localizado prÃ³ximo ao palquinho,descendo a praÃ§a principal. Mesmo que vocÃª nÃ£o saiba o que Ã© o palquinho, isso serÃ¡ Ãºtil !<break></break>
+        <image>https://raw.githubusercontent.com/DanielSsouto/bot-calouros/master/imgs/Bandejao_2.jpeg?token=AKFYAWJZKPF2ZZUIYH675EC6DZ3EM</image><split></split><delay>3</delay>
+        <image>https://raw.githubusercontent.com/DanielSsouto/bot-calouros/master/imgs/bandeco.jpg?token=AKFYAWLAQCX3EY3ZNQIZA3S6DZ3ES</image><split></split><delay>3</delay>
+        <image>https://raw.githubusercontent.com/DanielSsouto/bot-calouros/master/imgs/bandeco2.jpg?token=AKFYAWKZF6CEPDA24NE5YZC6DZ3EU</image><split></split><delay>3</delay>
+    </template>
+</category>
+
+<category>
+    <pattern># <set>padrao</set> # <set>blocos</set> #</pattern>
+    <template>
+        Hmmm... Vou te falar um pouco de todos os blocos os ICMC, asism fica mais fÃ¡cil pra vocÃª se localizar depois :)<delay>3</delay>
+        O bloco 1 Ã© onde se localizam os laboratÃ³rios de computadores.<delay>3</delay>
+        LÃ¡ Ã© onde fica tambÃ©m a impressora do ICMC.<break></break><delay>3</delay><break></break>
+        O bloco 1 fica em frente Ã  bilioteca do ICMC.
+        Aqui vai uma foto do bloco 1.
+        <image>https://emc.acidadeon.com/dbimagens/docente_selecionado_790x505_08052019160259.jpg</image><split></split><delay>3</delay>
+        O bloco 2 Ã© na verdade a nossa biblioteca. Ela fica localizada entre os blocos 1 e 3.<break></break><delay>3</delay>
+        <image>https://web.icmc.usp.br/SCATUSU/Fotos/biblio1.jpg</image><split></split><delay>3</delay>
+        No bloco 3 ficam salas de aulas, sala de professores, e tambÃ©m a sessÃ£o tÃ©cinica do ICMC.<break></break>
+        Ã o bloco mais bonito do nosso instituto... Ahhhh, lÃ¡ tambÃ©m fica o jardim secreto !<break></break><delay>6</delay>
+        Essa Ã© uma das entradas do bloco 3... <delay>2</delay><break></break>
+        <image>http://40anos.icmc.usp.br/images/phocagallery/antesDepois/thumbs/phoca_thumb_l_1b.jpg</image><delay>2</delay>
+        E essa Ã© uma vista interna do bloco 3! <delay>1.5</delay><break></break><delay>3</delay>
+        <image>https://1.bp.blogspot.com/-5NM7oFc6ruA/XVqiILEhPfI/AAAAAAAAKzM/4rirDBI3u6k9gK44Zez2mNIexXzBI3Y1ACEwYBhgL/s1600/ICMC-23_banner_destaque.jpg</image><split></split><delay>3</delay>
+        O bloco 4 tambÃ©m Ã© onde ficam as salas de aulas e dos professores. Ele fica do lado do bloco 3.<delay>2</delay><break></break><delay>2</delay>   
+        Essa Ã© uma das entradas do bloco 4... <break></break><delay>3</delay>
+        <image>https://4.bp.blogspot.com/-T7ITgwPpv8g/W3bdgZvGI7I/AAAAAAAAAGY/-9amU7eGYgQG5R2sBB-21U91bOnyQ5oJACLcBGAs/s400/ICMC-3.jpg</image>
+        E essa a outra, que Ã© acessada pelo bloco 3.<break></break>
+        <image>http://40anos.icmc.usp.br/images/phocagallery/antesDepois/thumbs/phoca_thumb_l_9b.jpg</image><split></split><delay>3</delay>
+        No bloco 5 temos mais salas de aulas ... Ele estÃ¡ localizado em frente ao bloco 6, e ao lado do bloco 1.<delay>2</delay><break></break>
+        <image>https://raw.githubusercontent.com/DanielSsouto/bot-calouros/master/imgs/bloco5.jpg?token=AKFYAWKDBGAEVVPYACI5GRS6DZ3IG</image><break></break><delay>2</delay>
+        <image>https://raw.githubusercontent.com/DanielSsouto/bot-calouros/master/imgs/bloco5_2.jpg?token=AKFYAWJ5DSE67AHNXL4YSL26DZ3IG</image><break></break><delay>2</delay>
+    </template>
+</category>
+
+<category>
+    <pattern># <set>padrao</set> # <set>cefersin</set> #</pattern>
+    <template>
+        O CEFER fica localizado descendo o bandejÃ£o, prÃ³ximo ao Instituto de QuÃ­mica.<break></break>
+        <image>https://raw.githubusercontent.com/DanielSsouto/bot-calouros/master/imgs/cefer.jpg?token=AKFYAWL35WXJLTSGA6BH6JC6DZ3KQ</image><break></break><delay>2</delay>
+        <image>https://raw.githubusercontent.com/DanielSsouto/bot-calouros/master/imgs/cefer2.jpg?token=AKFYAWLCTI7J2QS23DADOOC6DZ3KQ</image><break></break><delay>2</delay>
+    </template>
+</category>
+
+<category>
+    <pattern># <set>padrao</set> # <set>portarias</set> #</pattern>
+    <template>
+        <button>
+            <text>VocÃª pode saber mais sobre as portarias das USP neste link</text>
+            <url>http://www.puspsc.usp.br/seguranca-e-acesso-ao-campus/</url>
+        </button>
+    </template>
+</category>
+
+
+<category>
+    <pattern># <set>padrao</set> # <set>professores</set> #</pattern>
+    <template>No link abaixo vocÃª pode encontrar a pÃ¡gina de todos os docentes do ICMC, que contÃ©m entre outras informaÃ§Ãµes, a sala de cada um deles.
+        <button> 
+            <text>Docentes ICMC</text>
+            <url>https://www.icmc.usp.br/pessoas/docentes</url>
+        </button>
+    </template>
+</category>
+
+
+
+
+</aiml>

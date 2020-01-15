@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+<category>
+    <pattern># <set>hora</set> # <set>aula</set> #</pattern>
+	    <template>
+		    <button>
+		    <text>Clique aqui para ver os horÃ¡rios das aulas</text>
+            <url>https://www.icmc.usp.br/graduacao/informacoes-gerais-e-servicos/horarios-de-aulas</url>
+            </button>
+        </template>
+</category>
+
+
+
+<category>
+	<pattern># <set>aula</set> # <set>hora</set> #</pattern>
+	    <template>
+            <srai># hora # aula #</srai>
+        </template>
+</category>
+	
+</aiml>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+	<pattern>* <set>permanencia</set> *</pattern>
+	<template>
+		<button>
+			<text>Clique aqui para mais informaÃ§Ãµes sobre apoio para permanÃªncia estudantil</text>
+			<url>http://www.saocarlos.usp.br/permanencia-estudantil/</url>
+		</button>
+</template>
+</category>
+
+
+
+</aiml>

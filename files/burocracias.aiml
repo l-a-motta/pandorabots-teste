@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+	<pattern> # <set>matricula</set> # </pattern>
+        <template>
+            Os alunos ingressantes que nÃ£o tenham vindo de transferÃªncia nÃ£o precisam se preocupar com  a matrÃ­cula em disciplinas no inÃ­cio do primeiro semestre. No entanto, a partir do final dele, devem ficar atentos aos seus e-mails e ao calendÃ¡rio do jÃºpiter.
+        </template>
+</category>
+
+<category>
+	<pattern># bolsa #</pattern>
+	    <template>
+	        HÃ¡ diversos tipos de bolsa, como bolsa para permanÃªncia estudantil, bolsa trabalho e bolsa de iniciaÃ§Ã£o cientÃ­fica. Cada uma delas tem regras e diretrizes prÃ³prias.
+        </template>
+</category>
+
+<category>
+	<pattern># <set>nota</set> #</pattern>
+    	<template>
+    	    A nota mÃ­nima para ser aprovado na USP Ã© 5,0.
+        </template>
+</category>
+
+</aiml>

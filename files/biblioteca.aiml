@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+        <pattern># biblioteca #</pattern>
+        <template>
+            Criada junto ao Instituto de CiÃªncias MatemÃ¡ticas e de ComputaÃ§Ã£o em 29 de dezembro de 1971, possuÃ­a inicialmente 2360 livros e 246 tÃ­tulos de periÃ³dicos, acervo esse antes pertencente Ã  Escola de Engenharia. Inaugurada oficialmente em 12 de setembro de 1974 com o nome de "Prof. Achille Bassi", em homenagem ao primeiro Professor Titular do Departamento de MatemÃ¡tica e primeiro Diretor do Instituto. A Biblioteca do ICMC Ã© um centro de referÃªncia para quem atua em MatemÃ¡tica e ComputaÃ§Ã£o na regiÃ£o, sendo considerada uma das trÃªs melhores do Brasil.   
+        </template>
+    </category>
+	
+	
+	<category>
+	    <pattern># livro # biblioteca #</pattern>
+	    <template>
+	        Para pegar livros emprestados na biblioteca Ã© necessÃ¡rio a criaÃ§Ã£o de um cadastro na primeira vez, onde serÃ¡ criada uma senha. Nas vezes seguintes sÃ³ Ã© necessÃ¡rio inserir a senha no balcÃ£o de antendimento. Lembrando que em todos passos Ã© necessÃ¡rio mostrar o cartÃ£o USP.
+	    </template>
+    </category>
+    
+    
+</aiml>

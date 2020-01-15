@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+<category>
+	<pattern># <set>doc</set> #</pattern>
+	<template>
+		<button>
+			<text>Clique aqui para encontrar informaÃ§Ãµes atualizadas sobre documentos necessÃ¡rios</text>
+<url>https://www.icmc.usp.br/graduacao/informacoes-gerais-e-servicos</url>
+		</button>
+</template>
+</category>
+
+
+</aiml>

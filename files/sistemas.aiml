@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+<!-- Perguntas gerais de sistemas - INÃCIO -->
+
+<!-- Quais sistemas -->
+   
+   <category>
+       <pattern>^ QUAIS ^ SISTEMAS ^</pattern>
+       <template>
+           Alguns dos sistemas sÃ£o:
+           <ul>
+               <li>O JÃºpiter Web</li>
+               <li>O tidia</li>
+               <li>O Moodle</li>
+               <li>Os apps para celular</li>
+               <li>O Mundus</li>
+               <li>Entre outros.</li>
+           </ul>
+           Nem todos sÃ£o acessÃ­veis para os alunos de graduaÃ§Ã£o.
+       </template>
+   </category>
+
+<!-- Problemas com a senha -->
+
+<category>
+    <pattern> ^ problemas ^ senha ^</pattern>
+    <template> Se vocÃª estiver tendo problemas com a sua senha Ãºnica da USP, tente seguir as instruÃ§Ãµes 
+        <link>
+            <text>desta pÃ¡gina</text>
+            <url>https://docs.atp.usp.br/artigos/problemas-com-sua-senha-unica-senha-usp/</url>
+        </link>
+            Boa sorte!
+    </template>
+</category>
+
+<!-- Perguntas gerais de sistemas - FIM -->
+    
+<!-- Inputs que sugerem que o usuÃ¡rio nÃ£o entendeu a funcionalidade do bot - INÃCIO -->
+
+    <category>
+        <pattern> ^ conversar ^ </pattern>
+        <template> ahh poxa vida, acho que nÃ£o sou a melhor parceira de conversa... <split/> <delay>2</delay>
+        ainda nÃ£o sei me comunicar muito bem com humanos, fui programada pra responder perguntas dos alunos sobre coisas da usp de sÃ£o carlos <split/> <delay>4</delay>
+        aÃ­ nÃ£o tenho muitas opiniÃµes, nem respostas para perguntas nÃ£o relacionadas Ã  usp, chato, nÃ©? quem sabe um dia...</template>
+    </category> 
+  
+  <!-- por alguma razao nÃ£o estÃ¡ funcionando... -->
+  
+    <category> 
+        <pattern> ^ bater papo ^ </pattern>
+        <template> <srai> conversar </srai> </template>
+    </category>
+    
+    <category>
+        <pattern> ^ compra ^ </pattern>
+        <template> Acho que vocÃª estÃ¡ no lugar errado... <split/> <delay>2</delay> 
+        Eu sÃ³ posso ajudar com coisas relacionadas Ã  usp <split/> <delay>2</delay>
+        Se vocÃª tiver alguma dÃºvida nesse assunto, pergunte a mim!
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ codigo postal ^ </pattern>
+        <template> <srai> ^ compra ^ </srai> </template>
+    </category>
+    
+<!-- Termos que sugerem que o usuÃ¡rio nÃ£o entendeu a funcionalidade do bot - FIM -->
+
+
+
+    
+</aiml>

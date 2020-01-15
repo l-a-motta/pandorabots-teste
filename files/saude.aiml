@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+ <!-- InformaÃ§Ãµes sobre serviÃ§os mÃ©dicos do Campus -->
+  
+  <category>
+    <pattern># ubas #</pattern>
+    <template>
+      O atendimento mÃ©dico na USP de SÃ£o Carlos Ã© feito atravÃ©s da UBAS. Localizada na regiÃ£o central do campus oferece atendimento mÃ©dico e odontolÃ³gico, destinado a alunos de graduaÃ§Ã£o e pÃ³s-graduaÃ§Ã£o, docentes, servidores, funcionÃ¡rios e dependentes. 
+    </template>
+  </category>
+  
+  <category>
+    <pattern># <set>saudesinom</set> #</pattern>
+    <template><srai>ubas</srai></template>
+  </category>
+  
+  <category>
+    <pattern># <set>medicosinom</set> #</pattern>
+    <template><srai>ubas</srai>Os serviÃ§os mÃ©dicos sÃ£o: <srai>serviÃ§os mÃ©dicos</srai></template>
+  </category>
+  
+  <category>
+    <pattern># dentista #</pattern>
+    <template><srai>ubas</srai>Os serviÃ§os odontolÃ³gicos sÃ£o: <srai>serviÃ§os odontolÃ³gicos</srai></template>
+  </category>
+  
+  <category>
+    <pattern># serviÃ§os <set>medicosinom</set> #</pattern>
+    <template>
+        Ãrea mÃ©dica: pediatria, ginecologia e psiquiatria; <br/>
+        Ãrea de enfermagem: orientaÃ§Ãµes em saÃºde, curativos, retirada de pontos, aferiÃ§Ã£o de pressÃ£o arterial e, mediante apresentaÃ§Ã£o de receita mÃ©dica, inalaÃ§Ãµes e administraÃ§Ã£o via oral ou injetÃ¡vel de medicamentos.
+    </template>
+  </category>
+  
+  
+  <category>
+    <pattern># serviÃ§os odontolÃ³gicos #</pattern>
+    <template>
+        OrientaÃ§Ãµes em saÃºde bucal, obturaÃ§Ãµes, limpeza, restauraÃ§Ãµes e profilaxia. 
+    </template>
+  </category>
+  
+  <category>
+    <pattern># serviÃ§os odontologicos #</pattern>
+    <template><srai>serviÃ§os odontolÃ³gicos</srai></template>
+  </category>
+  
+  <category>
+      <pattern># horario # atendimento # ubas #</pattern>
+      <template>
+          Das 7h30 Ã s 17h de segunda a sexta-feira. <br/>
+          Atendimento enfermagem: Das 8h as 10h e das 14h Ã s 16h.
+      </template>
+  </category>
+  
+  <category>
+      <pattern># ubas # horario # atendimento #</pattern>
+      <template><srai>horario atendimento ubas</srai></template>
+  </category>
+  
+  <category>
+      <pattern># <set>agendamento</set> <set>opsaude</set> #</pattern>
+      <template>
+          Das 7h45 Ã s 16h45 â a marcaÃ§Ã£o de consultas, pode ser feita por telefone ou pessoalmente. O agendamento Ã© eletrÃ´nico e, para isso, Ã© imprescindÃ­vel informar o nÃºmero USP do paciente. <br/>
+          Telefone de Contato e Agendamento: (16) 3373-9197.
+      </template>
+  </category>
+  
+</aiml>
